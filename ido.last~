@@ -1,0 +1,46 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/cygdrive/d/WorkSpace/" . "GTD/")
+ ("/cygdrive/d/WorkSpace/WM_BS_Project/" . "BSDocument/")
+ ("/cygdrive/d/" . "WorkSpace/")
+ ("/cygdrive/" . "d/")
+ ("/" . "cygdrive/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/cygdrive/d/WorkSpace/WM_BS_Project/BSDocument/"
+ "/cygdrive/d/WorkSpace/GTD/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "TestRec.org"
+ "task.org"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/mut/" (21980 36795 706384 200000) "WrokSapce/" "WM_BS_Project/" "Project/" "myelpa-1.2/" "myDocuments/" "emacs-X11.exe.stackdump" ".ssh/" ".smex-items" ".profile" ".minttyrc" ".inputrc" ".gitconfig" ".emacs.keyfreq" ".emacs.d/" ".bash_profile" ".bash_history" ".bashrc" ".backups/" "../" "./")
+
+ ("/cygdrive/d/WorkSpace/GTD/" (21980 36624 64031 200000) "trash.org" "task.org" "readme.org" "project.org" "note.org" "inbox.org" "finished.org" "data/" ".git/" "#project.org#" "#inbox.org#" "../" "./")
+
+ ("/cygdrive/d/WorkSpace/WM_BS_Project/BSDocument/" (21980 36654 173977 900000) "testTaskCtrl.tex" "testTaskCtrl.pdf" "testTaskCtrl.org" "testTaskCtrl.html" "TestRecPlan.org" "TestRec.org" "TestRec.html" "TestDocDesign.org" "TaskCtrl.tex" "TaskCtrl.pdf" "TaskCtrl.org" "TaskCtrl.html" "missfont.log" "img/" "HS_XMLHandle_DesignDoc.org" "HS_DesignDoc/" "HSHardWareStruct.org" "Code_Note.org" "CalOrg.tex" "CalOrg.log" "BS测试/" "BlueSolutionSumary.tex" "BlueSolutionSumary.pdf" "BlueSolutionSumary.org" ".DS_Store" "#TestRec.html#" "#TestDocDesign.org#.bak" "#TestDocDesign.org#" "#TaskCtrl.org#" "#TaskCtrl.html#" "#HS_XMLHandle_DesignDoc.org#" "#HSHardWareStruct.org#" "#Code_Note.org#" "#CalOrg.org#" "#CalOrg.log#" "../" "./")
+
+ ("/cygdrive/" (21980 36676 0 0) "../" "./" "d/" "c/")
+
+ ("/cygdrive/d/WorkSpace/WM_BS_Project/WM_BS_TestDocHandle/" (21980 26091 876036 800000) "python-skeletons/" "main.py" "1.txt" ".idea/" "../" "./")
+
+ ("/cygdrive/d/WorkSpace/WM_BS_Project/" (21980 26091 779011 800000) "WM_BS_TestDocHandle/" "readme.md" "BSDocument/" ".git/" ".DS_Store" "../" "./")
+
+ ("/cygdrive/d/WorkSpace/" (21980 26089 522794 500000) "WM_BS_Project/" "WeimuWorkSpace/" "VS2013/" "QtProject/" "qt-everywhere-opensource-src-5.2.1/" "ProjectGit/" "GTD/" "../" "./")
+
+ ("/cygdrive/d/" (21980 26151 38056 600000) "../" "./" "Youku Files/" "WrokSapce - cygwin.lnk" "WorkSpace/" "WindowsApps/" "VMFile/" "VM/" "UbuntuFile/" "System Volume Information/" "System Repair/" "SteamLibrary/" "Soft/" "Recovery/" "QQDownload/" "Python34/" "Python27/" "Program Files/" "pagefile.sys" "mut/" "HB_USB/" "githubRep/" "Game/" "Downloads/" "DownLoad/" "cygwin64/" "CompanyBak/" "CloudMusic/" "Camera Roll/" "BlueSolutionProject/" "bak/" "BaiduYunDownload/" "AndroidVM/" "$RECYCLE.BIN/")
+
+ ("/home/" (21932 33833 643192 300000) "mut/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
