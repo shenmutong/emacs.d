@@ -1,0 +1,10 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: caseaddHParam2
+# key: caseadd2
+# binding: direct-keybinding
+# --
+    void initTestCase_$1();
+    void cleanupTestCase_$1();
+    void testCase_$1($2,$3);
+    void testCase_$1_data($2,$3);
+

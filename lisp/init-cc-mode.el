@@ -14,7 +14,17 @@
   (local-set-key (kbd "C-x C-o") 'ff-find-other-file)
   (local-set-key "\M-f" 'c-forward-into-nomenclature)
   (local-set-key "\M-b" 'c-backward-into-nomenclature)
+;add qt mode by shenmutong
+  (when (locate-library cc-mode)
+    (setq c-font-lock-keywords-3
+          (append '("signals" "\\(public\\|protected\\|private\\) slots")
+                  c-font-lock-keywords-3)))
+
   (setq cc-search-directories '("." "/usr/include" "/usr/local/include/*" "../*/include" "$WXWIN/include"))
+
+  (setq c-C++-access-key "\\<\\(slots\\|signals\\|private\\|protected\\|public\\)\\>[ \t]*[(slots\\|signals)]*[ \t]*:")
+(font-lock-add-keywords 'c++-mode '(("\\<\\(Q_OBJECT\\|public slots\\|public signals\\|private slots\\|private signals\\|protected slots\\|protected signals\\)\\>" . font-lock-constant-face)))
+
   (setq c-basic-offset 4)
   (setq c-style-variables-are-local-p nil)
   ;give me NO newline automatically after electric expressions are entered

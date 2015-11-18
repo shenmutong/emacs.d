@@ -91,4 +91,17 @@
 
 (add-hook 'prog-mode-hook '( lambda () (local-set-key (kbd "C-c ; h") 'w3mext-hacker-search)))
 
+(defun toggle-env-http-proxy ()
+    "set/unset the environment variable http_proxy which w3m uses"
+      (interactive)
+        (let ((proxy "http://127.0.0.1:8000"))
+              (if (string= (getenv "http_proxy") proxy)
+                          ;; clear the proxy
+                          (progn
+                                      (setenv "http_proxy" "")
+                                                (message "env http_proxy is empty now"))
+                      ;; set the proxy
+                      (setenv "http_proxy" proxy)
+                            (message "env http_proxy is %s now" proxy))))
+
 (provide 'init-emacs-w3m)

@@ -136,6 +136,9 @@
 ;; color theme
 (require 'color-theme)
 (require 'color-theme-molokai)
+;add qt mode by shenmutong
+(require 'cc-mode)
+;add qt mode by shenmutong
 (color-theme-molokai)
 ;; This line must be after color-theme-molokai! Don't know why.
 (setq color-theme-illegal-faces "^\\(w3-\\|dropdown-\\|info-\\|linum\\|yas-\\|font-lock\\)")
