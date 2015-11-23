@@ -30,10 +30,10 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/shenmutong/.emacs.d/"
  "/Users/shenmutong/.emacs.d/lisp/"
  "/Users/shenmutong/WorkSpace/SoftWareDepartment/BlueSolutionProject/UintTest/BSGuiUintTst/"
  "/Users/shenmutong/WorkSpace/SoftWareDepartment/BlueSolutionProject/BSUI_CE/BSUI_CE/"
- "/Users/shenmutong/.emacs.d/"
  "/home/mut/.emacs.d/snippets/c++-mode/"
  "/cygdrive/c/WorkSpace/WMProject-SVN/BlueSolutionProject/UintTest/BSGuiUintTst/"
  "/home/mut/GTD/"
@@ -52,6 +52,8 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "ido.last"
+ "recentf"
  "init-emacs-w3m.el"
  "tst_bsguiuinttsttest.cpp"
  "mainwindow.cpp"
@@ -60,15 +62,13 @@
  "init.el"
  "mainwindow.h"
  "QtUintTestAddNewTestCase2"
- "QtUintTestAddNewTestCase"
- "task.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/shenmutong/" (22098 33345 0 0) "百度云同步盘/" "WorkSpace/" "Wine Files/" "VirtualBox VMs/" "torch/" "tmuxStart.sh" "solarized/" "scp/" "Samsung/" "Qt5.5.0/" "Qt5.3.2/" "Qt5.3.1/" "PycharmProjects/" "Public/" "projs/" "Pictures/" "myDocuments/" "Music/" "Movies/" "Library/" "GTD/" "Emacs.sh" "Downloads/" "Documents/" "Desktop/" "CodeRepo/" "build-untitled-Desktop_Qt_5exit" "build-untitled-Desktop_Qt_5_5_0_clang_64bit-Debug/" "BSTestFile/" "BOOK/" "avrdude-6.1/" "avrdude-5.10/" "Applications (Parallels)/" "Applications/" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-shenmutong_Mac_mini-5.0.7" ".zcompdump-shenmutong_Mac_mini-5.0.5" ".Xdefaults" ".Xauthority" ".w3m/" ".vnc/" ".viminfo" ".vim/" ".Trash-1000/" ".Trash/" ".tmuxStart.sh.swp" ".tmux.conf" ".swp" ".swo" ".subversion/" ".ssh/" ".smex-items" ".ShadowsocksX/" ".sh_history" ".serverauth.78101" ".rnd" ".qt/" ".oh-my-zsh/" ".nx/" ".matplotlib/" ".MacMiniWork" ".local/" ".lesshst" ".idlerc/" ".gitconfig" ".emacs~" ".emacs.keyfreq" ".emacs.d/" ".emacs-bmk-bmenu-state.el" ".DS_Store" ".dropbox/" ".distlib/" ".designer/" ".custom.el" ".cups/" ".config/" ".CFUserTextEncoding" ".CF89AA64" ".cache/" ".bash_profile.pysave" ".bash_profile.macports-saved_2014-05-07_at_22:27:20" ".bash_profile" ".bash_history" ".backups/" ".android/" ".adobe/" "../" "./")
+ ("/Users/shenmutong/.emacs.d/" (22098 40740 0 0) "tramp" "snippets/" "site-lisp/" "recentf~" "recentf" "README.org" "README.md" "localelpa/" "lisp/" "init.el" "ido.last~" "ido.last" "idlwave/" "history" "eshell/" "emacs.d/" "elpa/" "defuns/" "BETA.org" "auto-save-list/" ".session" ".git/" "%backup%~" "#init.el#" "../" "./")
 
- ("/Users/shenmutong/.emacs.d/" (22098 32928 0 0) "tramp" "snippets/" "site-lisp/" "recentf~" "recentf" "README.org" "README.md" "localelpa/" "lisp/" "init.el" "ido.last~" "ido.last" "idlwave/" "history" "eshell/" "emacs.d/" "elpa/" "defuns/" "BETA.org" "auto-save-list/" ".session" ".git/" "#init.el#" "../" "./")
+ ("/Users/shenmutong/" (22098 40422 0 0) "百度云同步盘/" "WorkSpace/" "Wine Files/" "VirtualBox VMs/" "torch/" "tmuxStart.sh" "solarized/" "scp/" "Samsung/" "Qt5.5.0/" "Qt5.3.2/" "Qt5.3.1/" "PycharmProjects/" "Public/" "projs/" "Pictures/" "myDocuments/" "Music/" "Movies/" "Library/" "GTD/" "Emacs.sh" "Downloads/" "Documents/" "Desktop/" "CodeRepo/" "build-untitled-Desktop_Qt_5exit" "build-untitled-Desktop_Qt_5_5_0_clang_64bit-Debug/" "BSTestFile/" "BOOK/" "avrdude-6.1/" "avrdude-5.10/" "Applications (Parallels)/" "Applications/" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-shenmutong_Mac_mini-5.0.7" ".zcompdump-shenmutong_Mac_mini-5.0.5" ".Xdefaults" ".Xauthority" ".w3m/" ".vnc/" ".viminfo" ".vim/" ".Trash-1000/" ".Trash/" ".tmuxStart.sh.swp" ".tmux.conf" ".swp" ".swo" ".subversion/" ".ssh/" ".smex-items" ".ShadowsocksX/" ".sh_history" ".serverauth.78101" ".rnd" ".qt/" ".oh-my-zsh/" ".nx/" ".matplotlib/" ".MacMiniWork" ".local/" ".lesshst" ".idlerc/" ".gitconfig" ".emacs~" ".emacs.keyfreq" ".emacs.d/" ".emacs-bmk-bmenu-state.el" ".DS_Store" ".dropbox/" ".distlib/" ".designer/" ".custom.el" ".cups/" ".config/" ".CFUserTextEncoding" ".CF89AA64" ".cache/" ".bash_profile.pysave" ".bash_profile.macports-saved_2014-05-07_at_22:27:20" ".bash_profile" ".bash_history" ".backups/" ".android/" ".adobe/" "../" "./")
 
  ("/Users/shenmutong/WorkSpace/SoftWareDepartment/BlueSolutionProject/UintTest/BSGuiUintTst/" (22094 55621 0 0) "tst_bsguiuinttsttest.h" "tst_bsguiuinttsttest.cpp" "TAGS" "BSGuiUintTst.pro" ".#tst_bsguiuinttsttest.h" ".#tst_bsguiuinttsttest.cpp" "#tst_bsguiuinttsttest.h#" "#tst_bsguiuinttsttest.cpp#" "../" "./")
 
