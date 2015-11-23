@@ -1,0 +1,9 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name:QtNewFunctionAdd 
+# key: newFunc
+# binding: direct-keybinding
+# --
+$1 $2($3)
+{
+  $4 
+}

@@ -6,4 +6,4 @@
     void initTestCase_$1();
     void cleanupTestCase_$1();
     void testCase_$1();
-    void testCase_data_$1();
+    void testCase_$1_data();

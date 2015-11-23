@@ -2,6 +2,13 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/shenmutong/.emacs.d/" . "lisp/")
+ ("/Users/shenmutong/WorkSpace/SoftWareDepartment/BlueSolutionProject/BSUI_CE/" . "BSUI_CE/")
+ ("/Users/shenmutong/" . ".emacs.d/")
+ ("/Users/shenmutong/WorkSpace/SoftWareDepartment/BlueSolutionProject/UintTest/" . "BSGuiUintTst/")
+ ("/Users/shenmutong/WorkSpace/SoftWareDepartment/BlueSolutionProject/" . "BSUI_CE/")
+ ("/Users/shenmutong/WorkSpace/SoftWareDepartment/" . "BlueSolutionProject/")
+ ("/Users/shenmutong/WorkSpace/" . "SoftWareDepartment/")
  ("/home/mut/.emacs.d/snippets/" . "c++-mode/")
  ("/home/mut/.emacs.d/" . "snippets/")
  ("/cygdrive/c/WorkSpace/WMProject-SVN/BlueSolutionProject/BSUI_CE/" . "BSUI_CE/")
@@ -23,6 +30,10 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/shenmutong/.emacs.d/lisp/"
+ "/Users/shenmutong/WorkSpace/SoftWareDepartment/BlueSolutionProject/UintTest/BSGuiUintTst/"
+ "/Users/shenmutong/WorkSpace/SoftWareDepartment/BlueSolutionProject/BSUI_CE/BSUI_CE/"
+ "/Users/shenmutong/.emacs.d/"
  "/home/mut/.emacs.d/snippets/c++-mode/"
  "/cygdrive/c/WorkSpace/WMProject-SVN/BlueSolutionProject/UintTest/BSGuiUintTst/"
  "/home/mut/GTD/"
@@ -41,20 +52,44 @@
 
 ;; ----- ido-work-file-list -----
 (
- "QtUintTestAddNewTestCase2"
- "QtUintTestAddNewTestCase"
+ "init-emacs-w3m.el"
  "tst_bsguiuinttsttest.cpp"
- "task.org"
- "mainwindow.h"
+ "mainwindow.cpp"
+ "tst_bsguiuinttsttest.h"
  "init-cc-mode.el"
  "init.el"
- "mainwindow.cpp"
- "UintTestPlan.org"
- "DesignDocuments"
+ "mainwindow.h"
+ "QtUintTestAddNewTestCase2"
+ "QtUintTestAddNewTestCase"
+ "task.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/shenmutong/" (22098 33345 0 0) "百度云同步盘/" "WorkSpace/" "Wine Files/" "VirtualBox VMs/" "torch/" "tmuxStart.sh" "solarized/" "scp/" "Samsung/" "Qt5.5.0/" "Qt5.3.2/" "Qt5.3.1/" "PycharmProjects/" "Public/" "projs/" "Pictures/" "myDocuments/" "Music/" "Movies/" "Library/" "GTD/" "Emacs.sh" "Downloads/" "Documents/" "Desktop/" "CodeRepo/" "build-untitled-Desktop_Qt_5exit" "build-untitled-Desktop_Qt_5_5_0_clang_64bit-Debug/" "BSTestFile/" "BOOK/" "avrdude-6.1/" "avrdude-5.10/" "Applications (Parallels)/" "Applications/" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-shenmutong_Mac_mini-5.0.7" ".zcompdump-shenmutong_Mac_mini-5.0.5" ".Xdefaults" ".Xauthority" ".w3m/" ".vnc/" ".viminfo" ".vim/" ".Trash-1000/" ".Trash/" ".tmuxStart.sh.swp" ".tmux.conf" ".swp" ".swo" ".subversion/" ".ssh/" ".smex-items" ".ShadowsocksX/" ".sh_history" ".serverauth.78101" ".rnd" ".qt/" ".oh-my-zsh/" ".nx/" ".matplotlib/" ".MacMiniWork" ".local/" ".lesshst" ".idlerc/" ".gitconfig" ".emacs~" ".emacs.keyfreq" ".emacs.d/" ".emacs-bmk-bmenu-state.el" ".DS_Store" ".dropbox/" ".distlib/" ".designer/" ".custom.el" ".cups/" ".config/" ".CFUserTextEncoding" ".CF89AA64" ".cache/" ".bash_profile.pysave" ".bash_profile.macports-saved_2014-05-07_at_22:27:20" ".bash_profile" ".bash_history" ".backups/" ".android/" ".adobe/" "../" "./")
+
+ ("/Users/shenmutong/.emacs.d/" (22098 32928 0 0) "tramp" "snippets/" "site-lisp/" "recentf~" "recentf" "README.org" "README.md" "localelpa/" "lisp/" "init.el" "ido.last~" "ido.last" "idlwave/" "history" "eshell/" "emacs.d/" "elpa/" "defuns/" "BETA.org" "auto-save-list/" ".session" ".git/" "#init.el#" "../" "./")
+
+ ("/Users/shenmutong/WorkSpace/SoftWareDepartment/BlueSolutionProject/UintTest/BSGuiUintTst/" (22094 55621 0 0) "tst_bsguiuinttsttest.h" "tst_bsguiuinttsttest.cpp" "TAGS" "BSGuiUintTst.pro" ".#tst_bsguiuinttsttest.h" ".#tst_bsguiuinttsttest.cpp" "#tst_bsguiuinttsttest.h#" "#tst_bsguiuinttsttest.cpp#" "../" "./")
+
+ ("/Users/shenmutong/WorkSpace/SoftWareDepartment/BlueSolutionProject/BSUI_CE/BSUI_CE/" (22094 55445 0 0) "WMSystemRrecordHandle.h" "WMSystemRrecordHandle.cpp" "WMnormaldetresultshowwidget.ui" "WMnormaldetresultshowwidget.h" "WMnormaldetresultshowwidget.cpp" "WMHSSetTemperatueDialog.h" "WMHSSetTemperatueDialog.cpp" "WMHSSetStirSpeedDialog.h" "WMHSSetStirSpeedDialog.cpp" "WMHSSetPressingDeviceDialog.h" "WMHSSetPressingDeviceDialog.cpp" "WMHSSetFlowRateDialog.h" "WMHSSetFlowRateDialog.cpp" "WMHSInputSampleInfoDialog.ui" "WMHSInputSampleInfoDialog.h" "WMHSInputSampleInfoDialog.cpp" "wmhardwareinfform.ui" "wmhardwareinfform.h" "wmhardwareinfform.cpp" "TransverseScanDialog.ui" "TransverseScanDialog.h" "TransverseScanDialog.cpp" "tmpdialog.ui" "ThreeDScanDialog.ui" "ThreeDScanDialog.h" "ThreeDScanDialog.cpp" "TAGS" "showspectrogram.cpp" "showPlotInOneCFile.pro.user" "res.qrc" "res/" "qXmlText/" "mainwindow.ui" "mainwindow.h" "mainwindow.cpp" "main.cpp" "ImportDataBaseDialog.ui" "ImportDataBaseDialog.h" "ImportDataBaseDialog.cpp" "HSSetTemperatueDialog.ui" "HSSetStirSpeedDialog.ui" "HSSetPressingDeviceDialog.ui" "HSSetFlowRateDialog.ui" "HardWareAdjustingDialog.h" "form.ui" "form.h" "form.cpp" "detect.ui" "CommunicationDebugDialog.ui" "CommunicationDebugDialog.h" "CommunicationDebugDialog.cpp" "chardwareadjustingdialog.ui" "chardwareadjustingdialog.cpp" "c3dimgraph.h" "c3dimgraph.cpp" "c2dimgraph.h" "c2dimgraph.cpp" "build-qXmlText-Desktop_Qt_5_3_MinGW_32bit-Debug/" "BSUI_CEMarcoDefinition.h" "BSUI_CE.pro.user" "BSUI_CE.pro" "AboutDialog.ui" "AboutDialog.h" "AboutDialog.cpp" "1.cpp" "._.DS_Store" "#mainwindow.h#" "#mainwindow.cpp#" "../" "./")
+
+ ("/Users/shenmutong/WorkSpace/SoftWareDepartment/BlueSolutionProject/" (22094 50982 0 0) "WMiaoLib/" "UintTest/" "TAGS" "refFiles/" "readme.docx" "GTAGS" "GRTAGS" "GPATH" "build-BlueSolution-Desktop_Qt_5_3_MinGW_32bit-Release/" "build-BlueSolution-Desktop_Qt_5_3_MinGW_32bit-Debug/" "BSUI_CE/" "BlueSolutionSDK/" "BlueSolution.pro" "../" "./")
+
+ ("/Users/shenmutong/.emacs.d/lisp/" (22094 37474 0 0) "init-zencoding-mode.el" "init-yasnippet.el" "init-xterm.el" "init-writting.el" "init-workgroups2.el" "init-windows.el" "init-which-func.el" "init-web-mode.el" "init-utils.el" "init-uniquify.el" "init-textile.el" "init-term-mode.el" "init-stripe-buffer.el" "init-sr-speedbar.el" "init-spelling.el" "init-smex.el" "init-slime.el" "init-site-lisp.el" "init-sh.el" "init-sessions.el" "init-semantic.el" "init-ruby-mode.el" "init-recentf.el" "init-python-mode.el" "init-proxies.el" "init-pomodoro.el" "init-osx-keys.el" "init-org.el" "init-org-mime.el" "init-moz.el" "init-move-window-buffer.el" "init-modeline.el" "init-misc.el" "init-maxframe.el" "init-markdown.el" "init-lua-mode.el" "init-lisp.el" "init-linum-mode.el" "init-keyfreq.el" "init-javascript.el" "init-isearch.el" "init-ido.el" "init-ibuffer.el" "init-hs-minor-mode.el" "init-hippie-expand.el" "init-helm.el" "init-haskell.el" "init-gui-frames.el" "init-gud.el" "init-gtags.el" "init-gnus.el" "init-git.el" "init-frame-hooks.el" "init-fonts.el" "init-flymake.el" "init-exec-path.el" "init-evil.el" "init-erlang.el" "init-emacspeak.el" "init-emacs-w3m.el" "init-elpa.el" "init-elnode.el" "init-elisp.el" "init-eim.el" "init-doxygen.el" "init-dired.el" "init-ctags.el" "init-csv.el" "init-css.el" "init-csharp-mode.el" "init-crontab.el" "init-cperl-mode.el" "init-compat.el" "init-company.el" "init-cmake-mode.el" "init-cc-mode.el" "init-bbdb.el" "init-artbollocks-mode.el" "init-ace-jump-mode.el" "cl-lib.el" "../" "./")
+
+ ("/Users/shenmutong/WorkSpace/" (22093 30478 0 0) "WMProject_SVN.bak/" "WMEngineFrameSDK/" "testTaskCtrl.pdf" "testTaskCtrl.html" "SoftWareDepartment/" "Ref Tools/" "PregnancyCardProject/" "FFMpeg/" "CSharp_SQLiteHandle/" ".DS_Store" "../" "./")
+
+ ("/Users/shenmutong/Documents/" (21978 32512 0 0) "食物管家APP需求书.pages" "顶空测试计划.pdf" "顶空测试纪录.pdf" "蓝析二氧化硫需求书.docx" "自定义 Office 模板/" "终端存储的输出" "画.pages" "沈沐曈简历/" "欺骗的艺术.pdf" "我的形状/" "已恢复的文件。 1.pptx" "名画心情.psd" "XPS12 Server " "workspace/" "WM2015-03-05 工作日志 沈沐曈 .docx" "WM2015-03-04 工作日志 沈沐曈 .docx" "Visual Studio 2010/" "Virtual Machines.localized/" "ToDoList/" "Tencent Files/" "ShenGod/" "samsung/" "RECYCLER/" "RDC Connections/" "Project/" "Parallels/" "Outlook Temp/" "OneNote 笔记本/" "NoMachine/" "My Videos/" "Microsoft 用户数据/" "MasterPieceMoodTest/" "MasterPieceMood/" "LaserGunTestSQLDB" "Firefox 恢复密钥.html" "desktop.ini" "[键盘评测] HHKB PRO 2 深入评测　(多图慎入) - Powered by Discuz!.webarchive" ".parallels-vm-directory/" ".localized" ".DS_Store" "$RECYCLE.BIN/" "#LaserGunTestSQLDB#" "../" "./")
+
+ ("/Users/shenmutong/Desktop/" (22093 14172 0 0) "杜烨文件/" "尽管去做——无压工作的艺术.pdf" "员工手册.pdf" "WMEngineFrameSDK/" "weimuWorkBak/" "WeimuProject/" "Thumbs.db" "qextserialport/" "Projects-SVN" "desktop.ini" "Chrome OS.pvm " "BCD" "BaseSystem.dmg" "Android 4 .pvm " "2015年8月绩效自评-沈沐曈.xlsx" "2015年7月绩效自评-沈沐曈.numbers" ".localized" ".DS_Store" ".#BlueSolutionSumary.org" "$RECYCLE.BIN/" " sudo /" "../" "./")
+
+ ("/Users/shenmutong/WorkSpace/SoftWareDepartment/BlueSolutionProject/UintTest/" (22093 12573 0 0) "DesignDocuments/" "BSGuiUintTst/" "../" "./")
+
+ ("/Users/shenmutong/WorkSpace/SoftWareDepartment/BlueSolutionProject/BSUI_CE/" (22093 12598 0 0) "WMGraphCtrlSDK.dll" "SDKDllBak/" "PlayGround/" "hardwareinfform.ui" "hardwareinfform.h" "hardwareinfform.cpp" "BSUI_CE/" "../" "./")
+
+ ("/Users/shenmutong/WorkSpace/SoftWareDepartment/" (22093 12573 0 0) "WMTools/" "WMResource/" "WMMatrixFileRuleFilter/" "VGProject/" "SMARTVG/" "ScientificInstrument/" "ProgramSO2/" "PregnancyTestCardProject.v12.suo" "PregnancyTestCardProject.sln" "PregnancyTestCardProject/" "PregnancyCardProject/" "PolyFitN-2/" "PolyFitN/" "OVG/" "HotLaserGunManagerSuzhouTej/" "FAIMSParamCalculator/" "FAIMSAnalyerPE_Tobacco/" "FAIMSAnalyerPE4.0/" "FAIMSAnalyer/" "CRCCalculator/" "BlueSolutionProject/" ".svn/" "../" "./")
+
  ("/home/mut/.emacs.d/snippets/c++-mode/" (22092 17616 563398 800000) "wxmain" "wxlogobject.yasnippet" "wxlog.yasnippet" "wxerrobject.yasnippet" "wtctrl" "wstxt" "wsep" "wevthdl" "wbtn" "wassert" "vector" "tryw" "try" "throw" "this" "test_suite" "test_main" "test case" "str" "std::" "std" "QtUintTestAddNewTestCase2" "QtUintTestAddNewTestCase" "public" "protected" "private" "pack" "ostream" "operator>>" "operator<<" "operator[]" "operator==" "operator=" "operator+=" "operator+" "operator!=" "namespace" "module" "map" "iterator" "io" "inline" "indent" "ignore" "gtest" "fun_declaration" "function" "friend" "fori" "fixture" "enum" "d_operator<<" "d_operator[]_const" "d_operator[]" "dynamic_casting" "delete[]" "delete" "d+=" "cstd" "cpp" "cout" "const_[]" "constructor" "cin" "cerr" "cassert" "boost_require" "assert" ".yas-parents" ".#QtUintTestAddNewTestCase2" "../" "./")
 
  ("/cygdrive/c/WorkSpace/WMProject-SVN/BlueSolutionProject/UintTest/BSGuiUintTst/" (22092 17506 406418 300000) "tst_bsguiuinttsttest.cpp.autosave" "tst_bsguiuinttsttest.cpp" "BSGuiUintTst.pro" "../" "./")

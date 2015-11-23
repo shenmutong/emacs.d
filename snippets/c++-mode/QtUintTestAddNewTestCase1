@@ -1,9 +1,9 @@
 # -*- mode: snippet; require-final-newline: nil -*-
 # name: caseadd1
-# key: caseadd1
+# key: caseaddh1
 # binding: direct-keybinding
 # --
     void initTestCase_$1();
     void cleanupTestCase_$1();
-    void testCase_$1($2);
-    void testCase_$1_data($2);
+    void testCase_$1$2;
+    void testCase_$1_data$2;

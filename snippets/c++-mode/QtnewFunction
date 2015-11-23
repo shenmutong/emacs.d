@@ -1,0 +1,9 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: QtnewFunction
+# key:  new func 
+# binding: direct-keybinding
+# --
+&1 &2(&3)
+{
+  &4
+}
