@@ -2,6 +2,12 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/etc/" . "init.d/")
+ ("/home/" . "shenmutong/")
+ ("/home/shenmutong/.emacs.d/" . "lisp/")
+ ("/home/shenmutong/Desktop/1/" . "yuv2jpg_linux/")
+ ("/home/shenmutong/" . ".config/")
+ ("/home/shenmutong/Desktop/" . "JPG2AVI_C/")
  ("/home/mut/.emacs.d/snippets/" . "c++-mode/")
  ("/home/mut/.emacs.d/" . "snippets/")
  ("/cygdrive/c/WorkSpace/WMProject-SVN/BlueSolutionProject/BSUI_CE/" . "BSUI_CE/")
@@ -18,11 +24,19 @@
  ("/cygdrive/d/WorkSpace/WM_BS_Project/" . "BSDocument/")
  ("/cygdrive/d/" . "WorkSpace/")
  ("/cygdrive/" . "c/")
- ("/" . "cygdrive/")
+ ("/" . "etc/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/shenmutong/.config/"
+ "/home/shenmutong/.emacs.d/"
+ "/home/shenmutong/"
+ "/etc/init.d/"
+ "/home/shenmutong/.emacs.d/lisp/"
+ "/home/shenmutong/Desktop/JPG2AVI_C/"
+ "/home/shenmutong/Desktop/1/yuv2jpg_linux/"
+ "/home/shenmutong/Desktop/yuv2jpg_linux/"
  "/home/mut/.emacs.d/snippets/c++-mode/"
  "/cygdrive/c/WorkSpace/WMProject-SVN/BlueSolutionProject/UintTest/BSGuiUintTst/"
  "/home/mut/GTD/"
@@ -41,20 +55,54 @@
 
 ;; ----- ido-work-file-list -----
 (
- "QtUintTestAddNewTestCase2"
- "QtUintTestAddNewTestCase"
- "tst_bsguiuinttsttest.cpp"
- "task.org"
- "mainwindow.h"
- "init-cc-mode.el"
+ "user-dirs.dirs"
  "init.el"
- "mainwindow.cpp"
- "UintTestPlan.org"
- "DesignDocuments"
+ ".zshrc"
+ "QtProject.conf"
+ "hostname.sh"
+ "init-cc-mode.el"
+ "jpegtoavi.c"
+ "test.c"
+ "yuv2jpg.c"
+ "1"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/shenmutong/.compiz/" (22001 30609 635105 345000) "session/" "./" "../")
+
+ ("/home/shenmutong/" (22097 49895 462708 554000) ".profile" "StartEmacs.sh" ".zshrc" "Documents/" ".cache/" ".compiz/" ".synergy/" ".#.bashrc" ".bash_logout" "#.bashrc#" ".bashrc" ".xsession-errors.old" ".smex-items" ".local/" ".rnd" "cygwinHome/" ".mozilla/" ".ssh/" ".xsession-errors" ".zshrc.pre-oh-my-zsh" ".Xauthority" ".autojump/" ".thumbnails/" "Downloads/" ".gconf/" ".sudo_as_admin_successful" ".pam_environment" ".gtkrc-2.0" ".gvfs/" ".config/" ".dbus/" "autojump/" ".oh-my-zsh/" "Templates/" "./" "Videos/" "Pictures/" ".bash_history" ".xmodmap" ".gtkrc-2.0-kde4" "Public/" ".dmrc" ".xinputrc" ".ICEauthority" ".gnupg/" "emacs.d/" ".zcompdump-shenmutong-Alienware-15-5.0.7" ".adobe/" "../" ".emacs.d/" "examples.desktop" ".zshrc~" ".nv/" "Music/" ".zsh-update" "Desktop/" ".macromedia/" ".zshrc.bak" ".backups/" ".sunpinyin/" ".gnome/" ".emacs.keyfreq" ".zcompdump" ".zsh_history" ".pki/" ".presage/" "profile/" ".kde/" ".pip/")
+
+ ("/sudo:root@localhost:/root/" (ftp . 402277.43305555556) "../" "./" ".config/" ".bashrc" ".profile")
+
+ ("/home/shenmutong/.emacs.d/" (22097 48062 467061 345000) "recentf" "auto-save-list/" "history" "ido.last~" "BETA.org" "site-lisp/" "defuns/" "init.el" "tramp" ".git/" "./" "elpa/" "localelpa/" "README.md" "lisp/" "emacs.d/" "../" "ido.last" "README.org" ".session" "%backup%~" "recentf~" "snippets/")
+
+ ("/home/shenmutong/Desktop/yuv2jpg_linux/" (22095 17962 523605 810000) "GTAGS" "TAGS" "yuv2jpg.c" "./" "test.c" "GPATH" "1.jpg" "../" "yuv2" "GRTAGS" "GSYMS" "yuv2Jpg" "yuv2jpg.h" "squirrel-720x576-444P.yuv" "1")
+
+ ("/home/shenmutong/Desktop/JPG2AVI_C/" (22096 40186 742106 684000) "avifmt.h" "GTAGS" "jpeg0001.jpg" "jpegtoavi.c" "llist.c" "jpeg" "llist.h" "./" "GPATH" "jpeg0002.jpg" "../" "GRTAGS" "GSYMS" "jpeg.exe" "jpegtoavi.c~" "#jpegtoavi.c#" "jpeg0003.jpg")
+
+ ("/home/shenmutong/.emacs.d/lisp/" (22096 40184 798111 917000) "init-misc.el" "init-web-mode.el" "init-modeline.el" "init-cc-mode.el" "init-ace-jump-mode.el" "init-lua-mode.el" "init-csv.el" "init-ibuffer.el" "init-utils.el" "init-term-mode.el" "init-evil.el" "init-keyfreq.el" "init-company.el" "init-bbdb.el" "init-erlang.el" "init-pomodoro.el" "init-linum-mode.el" "init-uniquify.el" "init-hippie-expand.el" "init-org-mime.el" "init-haskell.el" "init-gtags.el" "init-hs-minor-mode.el" "init-compat.el" "init-eim.el" "init-sh.el" "init-stripe-buffer.el" "init-spelling.el" "init-isearch.el" "init-csharp-mode.el" "./" "init-site-lisp.el" "init-workgroups2.el" "init-org.el" "init-smex.el" "init-cperl-mode.el" "init-crontab.el" "init-move-window-buffer.el" "init-which-func.el" "init-windows.el" "init-gui-frames.el" "init-git.el" "init-yasnippet.el" "../" "init-doxygen.el" "init-javascript.el" "init-osx-keys.el" "init-proxies.el" "init-ruby-mode.el" "init-ctags.el" "init-dired.el" "init-css.el" "init-writting.el" "init-elpa.el" "init-helm.el" "init-markdown.el" "init-elnode.el" "init-recentf.el" "init-lisp.el" "init-moz.el" "init-exec-path.el" "init-cmake-mode.el" "cl-lib.el" "init-elisp.el" "init-xterm.el" "init-zencoding-mode.el" "init-artbollocks-mode.el" "init-textile.el" "init-gud.el" "init-sr-speedbar.el" "init-emacspeak.el" "init-fonts.el" "init-semantic.el" "init-python-mode.el" "init-flymake.el" "init-sessions.el" "init-emacs-w3m.el" "init-gnus.el" "init-maxframe.el" "init-slime.el" "init-ido.el" "init-frame-hooks.el")
+
+ ("/etc/init.d/" (22097 35050 256001 705000) "procps" "lightdm" "cgproxy" "bootmisc.sh" "kmod" "killprocs" "rc.local" "cgmanager" "halt" "dns-clean" "grub-common" "thermald" "lvm2" "reboot" "checkfs.sh" "mountall.sh" "speech-dispatcher" "apparmor" "x11-common" "acpid" ".depend.boot" "skeleton" "anacron" "irqbalance" "apport" "hostname.sh" "sddm" "checkroot.sh" ".depend.start" "sendsigs" "rcS" "rsync" "mountdevsubfs.sh" "rc" "./" "console-setup" "bluetooth" "ssh" "network-manager" "uuidd" "alsa-utils" "unattended-upgrades" "dbus" "udev-finish" "resolvconf" "umountfs" "umountnfs.sh" "sudo" "urandom" "../" "single" "cryptdisks-early" "mountnfs.sh" "cryptdisks" "brltty" ".depend.stop" "cups-browsed" "udev" "pppd-dns" "ufw" "saned" "checkroot-bootclean.sh" "rsyslog" "whoopsie" "README" "umountroot" "cups" "cron" "hwclock.sh" "mountnfs-bootclean.sh" "kerneloops" "avahi-daemon" "ondemand" "mountkernfs.sh" "mountall-bootclean.sh" "networking")
+
+ ("/home/shenmutong/.config/" (22097 45889 457359 360000) "menus/" "libaccounts-glib/" "QtProject.conf" "unity/" "kwalletrc" "kactivitymanagerd-pluginsrc" "kcmdisplayrc" "emaildefaults" "kwinrc" "kwinrulesrc" "kcmdrivermanagerrc" "fcitx-qimpanel/" "kdeglobals" "KDE/" "fcitx/" "gnome-session/" "ksmserverrc" "kconf_updaterc" "kded5rc" "kdebugrc" "gnome-control-center/" "kscreenlockerrc" "baloofilerc" "totem/" "startupconfigfiles" "gedit/" "pulse/" "startupconfigkeys" "kickoffrc" "compiz-1/" "user-dirs.dirs" "plasma-org.kde.plasma.desktop-appletsrc" "ibus/" "dconf/" "gtk-3.0/" "sogou-qimpanel/" "evolution/" "./" "touchpadrc" "software-center/" "startupconfig" "gtk-2.0/" "enchant/" "kmenueditrc" "kcmshell5rc" "google-chrome/" "Synergy/" "kxkbrc" "drkonqirc" "Trolltech.conf" "libreoffice/" "../" "kdeconnect/" "plasma-localerc" "kglobalshortcutsrc" "shadowsocks-qt5/" "ktimezonedrc" "upstart/" "knotifyrc" "kcminputrc" "krunnerrc" "gtkrc-2.0" "SogouPY.users/" "autostart/" "akonadi/" "update-notifier/" "powerdevilrc" "teamviewer/" "tilda/" "plasmarc" "khotkeysrc" "kactivitymanagerdrc" "systemsettingsrc" "nautilus/" "SogouPY/" "gtkrc" "eog/" "powermanagementprofilesrc")
+
+ ("/home/" (22097 35047 467905 502000) "shenmutong/" "./" "../" ".directory")
+
+ ("/etc/systemd/" (22096 33936 889159 964000) "timesyncd.conf" "user.conf" "network/" "logind.conf" "./" "resolved.conf" "../" "system.conf" "user/" "system/" "journald.conf" "bootchart.conf")
+
+ ("/etc/" (22096 34857 223698 319000) "ifplugd/" "lightdm/" "terminfo/" "subuid-" "UPower/" "hosts.deny" "emacs24/" "popularity-contest.conf" "passwd" "binfmt.d/" "python3/" "deluser.conf" "brltty.conf" "modules-load.d/" "globash.rc" "upstart-xsessions" "hosts" "nanorc" "w3m/" "selinux/" "logrotate.conf" "pki/" "mtools.conf" "udisks2/" "rc.local" "rc6.d/" "lintianrc" "tmpfiles.d/" "hostname" "ssl/" "resolv.conf" "initramfs-tools/" "groff/" "rsyslog.conf" "gss/" "thunderbird/" "apg.conf" "hp/" "thermald/" "xml/" "xul-ext/" "vim/" "services" "localtime" "sensors3.conf" "wgetrc" "adduser.conf" "openal/" "ca-certificates.conf" "cron.hourly/" "manpath.config" "shadow" "insserv/" "subuid" "speech-dispatcher/" "ld.so.conf.d/" "dkms/" "apparmor/" "subgid-" "fuse.conf" "kernel/" "network/" "apt/" "OpenCL/" "insserv.conf" "firefox/" "sudoers.d/" "samba/" "shadow-" "rc5.d/" "group" "kbd/" "dnsmasq.d/" "newt/" "pam.conf" "calendar/" "logrotate.d/" "securetty" "signon-ui/" "cron.monthly/" "vdpau_wrapper.cfg" "sgml/" "python2.7/" "wildmidi/" "modprobe.d/" "pulse/" "apport/" ".pwd.lock" "os-release" "pcmcia/" "polkit-1/" "drirc" "gdb/" "rarfiles.lst" "dconf/" "sysctl.conf" "gtk-3.0/" "nsswitch.conf" "apparmor.d/" "printcap" "hdparm.conf" "compizconfig/" "cron.d/" "default/" "avahi/" "gai.conf" "mailcap" "X11/" "dictionaries-common/" "console-setup/" "sudoers" "bluetooth/" "debian_version" "gtk-2.0/" "gnome/" "gshadow-" "libaudit.conf" "ssh/" "legal" "gnome-app-install/" "wodim.conf" "prime-discrete" "acpi/" "obex-data-server/" "rc3.d/" "rpc" "sensors.d/" "depmod.d/" "dpkg/" "papersize" "python/" "subgid" "debconf.conf" "networks" "gtags/" "resolvconf/" "issue" "timezone" "profile.d/" "perl/" "shells" "xdg/" "libreoffice/" "hosts.allow" "ppp/" "init/" "iproute2/" "ldap/" "usb_modeswitch.d/" "at-spi2/" "gconf/" "mtab" "modules" "magic.mime" "python3.4/" "insserv.conf.d/" "ImageMagick-6/" "rmt" "rcS.d/" "security/" "cron.daily/" "opt/" "grub.d/" "rsyslog.d/" "rc1.d/" "systemd/" "kerneloops.conf" "ucf.conf" "environment" "chatscripts/" "magic" "signond.conf" "apm/" "mailcap.order" "mke2fs.conf" "brltty/" "dhcp/" "protocols" "gshadow" "alternatives/" "libpaper.d/" "ld.so.conf" "rc4.d/" "timidity/" "usb_modeswitch.conf" "update-notifier/" "dbus-1/" "wpa_supplicant/" "vtrgb" "rc2.d/" "teamviewer/" "kernel-img.conf" "udev/" "inputrc" "group-" "fstab" "skel/" "netscsid.conf" "init.d/" "cron.weekly/" "cupshelpers/" "pnm2ppa.conf" "ghostscript/" "ufw/" "lsb-release" "libnl-3/" "bash.bashrc" "pam.d/" "sane.d/" "ltrace.conf" "ca-certificates/" "aptdaemon/" "zsh/" "bindresvport.blacklist" "update-manager/" "cups/" "presage.xml" "host.conf" "zsh_command_not_found" "fonts/" "ld.so.cache" "cracklib/" "update-motd.d/" "issue.net" "sysctl.d/" "ffserver.conf" "brlapi.key" "updatedb.conf" "emacs/" "anacrontab" "machine-id" "logcheck/" "locale.alias" "doc-base/" "crontab" "bash_completion" "login.defs" "mime.types" "profile" "rc0.d/" "pm/" "passwd-" "NetworkManager/" "bash_completion.d/" "../" "./")
+
+ ("/home/shenmutong/Documents/" (22000 19278 692718 889000) "./" "../")
+
+ ("/home/shenmutong/Desktop/" (22095 16748 922220 718000) "ICE_352x288_30_orig_02_yuv/" "JPG2AVI_C/" "./" "BUS_352x288_30_orig_01.yuv" "../" "BUS_352x288_30_orig_01_yuv.zip" "FFmpeg/" "b.jpg" "teamviewer_11.0.51386_i386.deb" "squirrel-720x576-444P.yuv" "yuv2jpg_linux/" "1/")
+
+ ("/home/shenmutong/Desktop/1/yuv2jpg_linux/" (22094 1226 520533 739000) "yuv2jpg.c" "2.jpg" "./" "test.c" "../" "yuv2" "yuv2jpg.h" "yuv2jpg" "1")
+
+ ("/home/shenmutong/Desktop/1/" (22094 114 732269 119000) "./" "../" "yuv2jpg_linux/")
+
+ ("/bin/" (22000 19515 881395 664000) "lessecho" "lessfile" "grep" "fusermount" "nisdomainname" "mktemp" "bzegrep" "login" "zforce" "egrep" "ntfscmp" "fgconsole" "ss" "vmmouse_detect" "zegrep" "journalctl" "running-in-container" "sed" "znew" "sync" "open" "zgrep" "lsmod" "kmod" "systemd-hwdb" "cat" "mountpoint" "sh" "bunzip2" "ntfsfix" "hostname" "readlink" "systemd-tty-ask-password-agent" "dumpkeys" "zmore" "machinectl" "lesspipe" "systemctl" "networkctl" "bzless" "ps" "dd" "setfont" "red" "netcat" "mknod" "bzmore" "uname" "more" "ntfs-3g.probe" "plymouth" "sh.distrib" "rm" "mv" "su" "stty" "bzip2recover" "chown" "getfacl" "loginctl" "mt" "bzgrep" "ntfs-3g.usermap" "ulockmgr_server" "nano" "mt-gnu" "ntfsfallocate" "ping" "ls" "pwd" "ntfscat" "ping6" "setfacl" "ntfscluster" "ed" "umount" "ntfsls" "findmnt" "ntfswipe" "netstat" "rnano" "bzcmp" "less" "wdctl" "ypdomainname" "pidof" "systemd-escape" "ln" "fgrep" "uncompress" "which" "ntfstruncate" "./" "tempfile" "gunzip" "dmesg" "unicode_start" "ntfs-3g" "lesskey" "static-sh" "vdir" "bzexe" "chacl" "kbd_mode" "bzip2" "gzexe" "bzfgrep" "zcat" "bzcat" "kill" "lsblk" "loadkeys" "../" "systemd-tmpfiles" "sleep" "cp" "ip" "rmdir" "chmod" "tailf" "false" "systemd" "nc" "systemd-machine-id-setup" "udevadm" "ntfsmove" "tar" "nc.openbsd" "rzsh" "efibootmgr" "dir" "date" "mount" "bzdiff" "run-parts" "ntfs-3g.secaudit" "whiptail" "echo" "dnsdomainname" "df" "zdiff" "true" "gzip" "fuser" "systemd-inhibit" "systemd-notify" "domainname" "zsh4" "rbash" "zless" "chvt" "zfgrep" "busybox" "chgrp" "mkdir" "zcmp" "lowntfs-3g" "zsh" "touch" "setupcon" "systemd-ask-password" "cpio" "openvt" "bash" "ntfsinfo" "plymouth-upstart-bridge" "zsh5" "dash")
+
  ("/home/mut/.emacs.d/snippets/c++-mode/" (22092 17616 563398 800000) "wxmain" "wxlogobject.yasnippet" "wxlog.yasnippet" "wxerrobject.yasnippet" "wtctrl" "wstxt" "wsep" "wevthdl" "wbtn" "wassert" "vector" "tryw" "try" "throw" "this" "test_suite" "test_main" "test case" "str" "std::" "std" "QtUintTestAddNewTestCase2" "QtUintTestAddNewTestCase" "public" "protected" "private" "pack" "ostream" "operator>>" "operator<<" "operator[]" "operator==" "operator=" "operator+=" "operator+" "operator!=" "namespace" "module" "map" "iterator" "io" "inline" "indent" "ignore" "gtest" "fun_declaration" "function" "friend" "fori" "fixture" "enum" "d_operator<<" "d_operator[]_const" "d_operator[]" "dynamic_casting" "delete[]" "delete" "d+=" "cstd" "cpp" "cout" "const_[]" "constructor" "cin" "cerr" "cassert" "boost_require" "assert" ".yas-parents" ".#QtUintTestAddNewTestCase2" "../" "./")
 
  ("/cygdrive/c/WorkSpace/WMProject-SVN/BlueSolutionProject/UintTest/BSGuiUintTst/" (22092 17506 406418 300000) "tst_bsguiuinttsttest.cpp.autosave" "tst_bsguiuinttsttest.cpp" "BSGuiUintTst.pro" "../" "./")
@@ -100,8 +148,6 @@
  ("/cygdrive/c/WorkSpace/refFiles/" (22082 53360 11831 800000) "蓝析驱动/" "蓝析测试/" "Document/" "BSUI_PE/" ".svn/" "../" "./")
 
  ("/cygdrive/c/WorkSpace/" (22085 30098 6681 300000) "WMProject-SVN/" "refFiles/" "PlayGround/" "../" "./")
-
- ("/home/" (21960 24579 965076 100000) "mut/" "../" "./")
 
  ("/home/mut/AWayToUp/.git/" (21987 2232 943565 300000) "refs/" "objects/" "logs/" "info/" "index" "hooks/" "HEAD" "description" "config" "COMMIT_EDITMSG" "../" "./")
 
