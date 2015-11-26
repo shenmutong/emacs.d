@@ -1,4 +1,3 @@
-
 ;; -*- coding: utf-8 -*-
 (setq emacs-load-start-time (current-time))
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/lisp"))
@@ -161,6 +160,7 @@
 
 
 (setq tags-file-name "/usr/src/linux/TAGS")
+(setq tags-file-name "/usr/src/Qt5.5.0/TAGS")
 
 
 ;;----------------------------------------------------------------------------
@@ -179,8 +179,15 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(window-numbering-face ((t (:foreground "DeepPink" :underline "DeepPink" :weight bold))) t))
+
+; set sheif +space as set mark command
+(global-set-key [S-] 'set-mark-command)
+;; 行首, 设定mark以及行尾.
+(global-set-key [C-2] 'set-mark-command)
+
+
 ;; change keys for iterm2
-(define-key input-decode-map "\e[1      ;10A" [M-S-up])
+                                 (define-key input-decode-map "\e[1;10A" [M-S-up])
                                  (define-key input-decode-map "\e[1;10B" [M-S-down])
                                  (define-key input-decode-map "\e[1;10C" [M-S-right])
                                  (define-key input-decode-map "\e[1;10D" [M-S-left])
@@ -190,14 +197,41 @@
                                  (define-key input-decode-map "\e[1;9C" [M-right])
                                  (define-key input-decode-map "\e[1;9D" [M-left])
 ;;change end
-;;; Local Variables:
+
+;; mac key bindings
+;;
+;;
+(when (eq system-type 'darwin)    ;; mac specific settings
+  (setq mac-option-key-is-meta t)
+  (setq mac-option-modifier 'super)
+  (setq mac-right-option-modifier nil)
+  (global-set-key [C-tab] 'scroll-down-command)
+)
+
+;;ccmode
+;;(define-key c-mode-base-map [(tab)] 'my-indent-or-complete)
+;;(define-key c-mode-base-map [(meta ?/)] 'semantic-ia-complete-symbol-menu)
+(global-set-key [(f5)] 'speedbar)
+;; (when (eq system-type (global-set-key [(meta v)] 'scroll-up)'darwin) ;; mac specific settings
+;;   ;;  (setq mac-option-modifier 'meta)
+;;   (setq mac-command-modifier 'meta)
+;;   (global-set-key [kp-delete] 'delete-char) ;; sets fn-delete to be right-delete
+;;   )
+;;;;; Local Variables:
 ;;; no-byte-compile: t
-;;; End:
-                                 (put 'erase-buffer 'disabled nil)
+;;; End
+
+:
+(put 'erase-buffer 'disabled nil)
+
+;; init windows
+
+
+
+
 
 
 ;; transform window
-
 
 ;; Anchor: March Liu (刘鑫) <march.liu@gmail.com
 ;;
@@ -223,6 +257,8 @@
 
 ;; (global-set-key [(f11)] 'loop-alpha)
 
+
+
 (global-set-key [(f9)] 'loop-alpha)
 
 (setq alpha-list '((100 100) (95 65) (85 55) (75 45) (65 35)))
@@ -236,6 +272,7 @@
 
        (set-frame-parameter (selected-frame) 'alpha (list a ab))
 
+       
        (add-to-list 'default-frame-alist (cons 'alpha (list a ab)))
 
        ) (car h) (car (cdr h)))
@@ -243,7 +280,16 @@
     (setq alpha-list (cdr (append alpha-list (list h))))
 
     )
-
 )
 
- 
+
+(put 'scroll-left 'disabled nil)
+
+(desktop-save-mode 0)
+
+
+;;(setq desktop-dir "~/.emacs.d")
+
+;;(desktop-read desktop-dir)
+
+

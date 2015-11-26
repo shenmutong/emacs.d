@@ -1,0 +1,2006 @@
+;; Object BSUI_CE/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "BSUI_CE/"
+  :tables
+  (list
+    (semanticdb-table "mainwindow.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("mainwindow.h" include nil nil [1 24])
+            ("ui_mainwindow.h" include nil nil [25 51])
+            ("QFile" include (:system-flag t) nil [154 170])
+            ("QTableWidget" include (:system-flag t) nil [171 194])
+            ("qdebug.h" include (:system-flag t) nil [195 214])
+            ("QMouseEvent" include (:system-flag t) nil [262 284])
+            ("QMessageBox" include (:system-flag t) nil [285 307])
+            ("QFileDialog" include (:system-flag t) nil [308 330])
+            ("WMEngineManager.h" include (:system-flag t) nil [332 360])
+            ("WMBSSystemVar.h" include (:system-flag t) nil [361 387])
+            ("WMDeviceManager.h" include (:system-flag t) nil [388 416])
+            ("QVector" include (:system-flag t) nil [417 435])
+            ("WidegetType_LineEdit" variable (:constant-flag t) nil [446 466])
+            ("SystemInf_Normal" variable (:constant-flag t) nil [478 494])
+            ("SystemInf_Det" variable (:constant-flag t) nil [517 530])
+            ("SystemInf_SeriousWrong" variable (:constant-flag t) nil [548 570])
+            ("SystemInf_NormalWrong" variable (:constant-flag t) nil [596 617])
+            ("SystemInf_Idle" variable (:constant-flag t) nil [654 668])
+            ("SystemInf_Clean" variable (:constant-flag t) nil [695 710])
+            ("SystemStatus_Normal" variable (:constant-flag t) nil [737 756])
+            ("SystemStatus_Det" variable (:constant-flag t) nil [774 790])
+            ("SystemStatus_SeriousWrong" variable (:constant-flag t) nil [811 836])
+            ("SystemStatus_NormalWrong" variable (:constant-flag t) nil [848 872])
+            ("SystemStatus_Idle" variable (:constant-flag t) nil [885 902])
+            ("SystemStatus_Clean" variable (:constant-flag t) nil [922 940])
+            ("MainWindow" function
+               (:constructor-flag t
+                :parent "MainWindow"
+                :arguments 
+                  ( ("parent" variable
+                       (:pointer 1
+                        :type ("QWidget" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1310 1326]))                  
+                :type ("MainWindow" type (:type "class") nil nil))
+                nil [1287 20940])
+            ("lineTest" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("type" variable (:type ("QtMsgType" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21300 21315])
+                    ("context" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("QMessageLogContext" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [21316 21350])
+                    ("msg" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("QString" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [21351 21370]))                  
+                :type "void")
+                nil [21274 22430])
+            ("customMessageHandler" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("type" variable (:type ("QtMsgType" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22469 22484])
+                    ("context" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("QMessageLogContext" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [22485 22519])
+                    ("msg" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("QString" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [22520 22539]))                  
+                :type "void")
+                nil [22431 23413])
+            ("MainWindow" function
+               (:destructor-flag t
+                :parent "MainWindow"
+                :type "void")
+                nil [23747 24458])
+            ("closeEvent" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("event" variable
+                       (:pointer 1
+                        :type ("QCloseEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [24829 24848]))                  
+                :type "void")
+                nil [24801 25237])
+            ("slot_InitFinish" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [26557 26813])
+            ("slot_InitStart" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [27144 27182])
+            ("slot_SysWrongHandle" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("cSysWrongInf" variable (:type ("CWMSysWrongInf" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [27223 27251]))                  
+                :type "void")
+                nil [27186 28144])
+            ("slot_OneLineScanFinish" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("lineIndex" variable (:type "int") (reparse-symbol arg-sub-list) [28186 28200])
+                    ("datalineP" variable (:type ("CDataLine" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [28201 28221])
+                    ("datalineN" variable (:type ("CDataLine" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [28222 28242]))                  
+                :type "void")
+                nil [28146 35265])
+            ("CrossLineMoved" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("iRowIndex" variable (:type "int") (reparse-symbol arg-sub-list) [35301 35315])
+                    ("dYValue" variable (:type "double") (reparse-symbol arg-sub-list) [35316 35331])
+                    ("iColumnIndex" variable (:type "int") (reparse-symbol arg-sub-list) [35332 35349])
+                    ("dXValue" variable (:type "double") (reparse-symbol arg-sub-list) [35350 35365])
+                    ("dDataValue" variable (:type "double") (reparse-symbol arg-sub-list) [35366 35385]))                  
+                :type "void")
+                nil [35268 38676])
+            ("CrossLineMoved" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("iRowIndex" variable (:type "int") (reparse-symbol arg-sub-list) [38711 38725])
+                    ("dYValue" variable (:type "double") (reparse-symbol arg-sub-list) [38726 38741])
+                    ("iColumnIndex" variable (:type "int") (reparse-symbol arg-sub-list) [38742 38759])
+                    ("dXValue" variable (:type "double") (reparse-symbol arg-sub-list) [38760 38775])
+                    ("dDataValue" variable (:type "double") (reparse-symbol arg-sub-list) [38776 38794])
+                    ("cDataMode" variable (:type "int") (reparse-symbol arg-sub-list) [38795 38809]))                  
+                :type "void")
+                nil [38679 39624])
+            ("slot_EngineCloseFinish" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [39627 39691])
+            ("slot_PollEngineCheckFinish" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [39694 39744])
+            ("slot_GetRawFishParam" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("dTemp" variable (:type "double") (reparse-symbol arg-sub-list) [39785 39798])
+                    ("dFlowRate" variable (:type "double") (reparse-symbol arg-sub-list) [39837 39854])
+                    ("dPressure" variable (:type "double") (reparse-symbol arg-sub-list) [39893 39910])
+                    ("dHumidity" variable (:type "double") (reparse-symbol arg-sub-list) [39949 39966]))                  
+                :type "void")
+                nil [39747 40670])
+            ("slot_GetSampleInjectorTemp" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("dSampleInjectorTemp" variable (:type "double") (reparse-symbol arg-sub-list) [40717 40744]))                  
+                :type "void")
+                nil [40673 40878])
+            ("slot_GetMainPumpFlowRate" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("dValue" variable (:type "double") (reparse-symbol arg-sub-list) [40923 40937]))                  
+                :type "void")
+                nil [40881 41062])
+            ("slot_GetPADSensorTemp" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("dValue" variable (:type "double") (reparse-symbol arg-sub-list) [41103 41117]))                  
+                :type "void")
+                nil [41064 41136])
+            ("slot_GetMainBoardTemp" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("dValue" variable (:type "double") (reparse-symbol arg-sub-list) [41178 41192]))                  
+                :type "void")
+                nil [41139 41207])
+            ("slot_GetHSStirParam" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("dValueStirSpeed" variable (:type "double") (reparse-symbol arg-sub-list) [41247 41270])
+                    ("dValueSwitchMotorMoveSpeed" variable (:type "double") (reparse-symbol arg-sub-list) [41271 41305]))                  
+                :type "void")
+                nil [41210 41470])
+            ("slot_GetFilterTemp" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("dValue" variable (:type "double") (reparse-symbol arg-sub-list) [41508 41522]))                  
+                :type "void")
+                nil [41472 41609])
+            ("slot_GetBottleTemp" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("dValue" variable (:type "double") (reparse-symbol arg-sub-list) [41647 41661]))                  
+                :type "void")
+                nil [41611 41748])
+            ("slot_GetPipeTemp" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("dValue" variable (:type "double") (reparse-symbol arg-sub-list) [41784 41798]))                  
+                :type "void")
+                nil [41750 41880])
+            ("slot_GetSampleGasTemp" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("dValue" variable (:type "double") (reparse-symbol arg-sub-list) [41921 41935]))                  
+                :type "void")
+                nil [41882 42156])
+            ("slot_GetSampleGasFlow" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("dValue" variable (:type "double") (reparse-symbol arg-sub-list) [42197 42211]))                  
+                :type "void")
+                nil [42158 42435])
+            ("slot_GetAttenGasFlow" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("dValue" variable (:type "double") (reparse-symbol arg-sub-list) [42475 42489]))                  
+                :type "void")
+                nil [42437 42720])
+            ("slot_HSScanFinish" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("dResult" variable (:type "double") (reparse-symbol arg-sub-list) [42758 42773])
+                    ("dIonValue" variable (:type "double") (reparse-symbol arg-sub-list) [42773 42790]))                  
+                :type "void")
+                nil [42723 43445])
+            ("slot_RefreshWorkFlow" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [43447 43525])
+            ("slot_HSEngineExecWorkFlowFinish" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("iWorkFlowID" variable (:type "int") (reparse-symbol arg-sub-list) [43577 43593]))                  
+                :type "void")
+                nil [43528 44003])
+            ("slot_ShowHSIonValue" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("dIonValue" variable (:type "double") (reparse-symbol arg-sub-list) [44044 44061]))                  
+                :type "void")
+                nil [44007 44141])
+            ("resetDeviceParmFormWin" function
+               (:parent "MainWindow"
+                :type "bool")
+                nil [44163 44260])
+            ("refreshFAIMSCoreParam" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [44262 47987])
+            ("StartHSDet" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [47990 49519])
+            ("StopHSDet" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [49596 49662])
+            ("StartNormalDet" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [49664 50888])
+            ("StopNormalDet" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [50890 50990])
+            ("StopNormalDetClean" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [50992 51069])
+            ("StartContinousDet" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [51072 51167])
+            ("StopContinousDet" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [51169 51230])
+            ("InitGraphParam" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [51232 57981])
+            ("RefreshHWInf" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [57983 59447])
+            ("showEvent" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("ShowEvent" variable
+                       (:pointer 1
+                        :type ("QShowEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [59817 59841]))                  
+                :type "void")
+                nil [59789 59914])
+            ("on_action_Exit_triggered" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [60110 60208])
+            ("on_lineEdit_DFStart_selectionChanged" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [60210 60325])
+            ("on_lineEdit_DFStart_customContextMenuRequested" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("pos" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("QPoint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [60391 60409]))                  
+                :type "void")
+                nil [60327 60479])
+            ("on_lineEdit_DFStart_cursorPositionChanged" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("arg1" variable (:type "int") (reparse-symbol arg-sub-list) [60540 60549])
+                    ("arg2" variable (:type "int") (reparse-symbol arg-sub-list) [60550 60559]))                  
+                :type "void")
+                nil [60481 60624])
+            ("on_pushButton_CommunicationDebug_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [60626 61688])
+            ("on_pushButton_HardWareAdjusting_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [62042 62214])
+            ("on_action_About_triggered" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [62544 62678])
+            ("on_tabWidget_MainWin_currentChanged" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("index" variable (:type "int") (reparse-symbol arg-sub-list) [62733 62743]))                  
+                :type "void")
+                nil [62680 63331])
+            ("on_comboBox__HWC_HS_OperationName_currentIndexChanged" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("arg1" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("QString" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [63403 63423]))                  
+                :type "void")
+                nil [63332 63428])
+            ("on_comboBox__HWC_HS_OperationName_currentIndexChanged" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("index" variable (:type "int") (reparse-symbol arg-sub-list) [63502 63512]))                  
+                :type "void")
+                nil [63431 64304])
+            ("on_tabWidget_HWC_HeadSpace_currentChanged" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("index" variable (:type "int") (reparse-symbol arg-sub-list) [64366 64376]))                  
+                :type "void")
+                nil [64307 64883])
+            ("on_pushButton_Start_Stop_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [64886 67895])
+            ("ApplySystemDetMode" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [67898 69782])
+            ("on_pushButton_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [69783 70154])
+            ("showWidgetHSSetFlowRateDialog" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [70157 70735])
+            ("showwidgetHSSetPressingDeviceDialog" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [70736 71293])
+            ("showWidgetHSSetStirSpeedDialog" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [71294 71828])
+            ("showWidgetHSSetTemperatueDialog" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [71829 72366])
+            ("on_pushButton__HWC_HS_AddOperation_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [72370 77896])
+            ("on_radioButton_HWC_HS_Detecting_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [77899 78237])
+            ("on_radioButton__HWC_HS_DetectFinish_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [78239 78585])
+            ("on_radioButton__HWC_HS_OffHardWare_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [78587 78928])
+            ("on_pushButton__HWC_HS_AddWorkFlowOrder_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [78930 81173])
+            ("on_action_SaveConfigFile_triggered" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [81175 82060])
+            ("on_action_LoadConfigFile_triggered" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [82063 82428])
+            ("on_radioButton_Continnus_PositiveMode_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [82431 83101])
+            ("on_radioButton_Continnus_NegativeMode_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [83104 83831])
+            ("on_tabWidget_HardWareCtrl_currentChanged" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("index" variable (:type "int") (reparse-symbol arg-sub-list) [83891 83901]))                  
+                :type "void")
+                nil [83833 84224])
+            ("on_tabWidget_HWC_HeadSpace_destroyed" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [84226 84286])
+            ("on_treeWidget__HWC_HS_OperationList_itemClicked" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("item" variable
+                       (:pointer 1
+                        :type ("QTreeWidgetItem" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [84353 84375])
+                    ("column" variable (:type "int") (reparse-symbol arg-sub-list) [84376 84387]))                  
+                :type "void")
+                nil [84288 84394])
+            ("on_treeWidget__HWC_HS_WorkFlowList_itemClicked" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("item" variable
+                       (:pointer 1
+                        :type ("QTreeWidgetItem" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [84460 84482])
+                    ("column" variable (:type "int") (reparse-symbol arg-sub-list) [84483 84494]))                  
+                :type "void")
+                nil [84396 84499])
+            ("on_pushButton_3_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [84501 85411])
+            ("UnPakageQobjectValueToString" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("obJsonValue" variable (:type ("QJsonObject" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [85462 85486])
+                    ("qsParaName" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [85486 85505]))                  
+                :type ("QString" type (:type "class") nil nil))
+                nil [85413 85770])
+            ("RefreshHWC_HS_OperationList" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [85771 90435])
+            ("RefreshWorkFlowList" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("flowCtrlItemManagerTemp" variable
+                       (:reference 1
+                        :type ("CWMFlowCtrlItemManager" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [90473 90521]))                  
+                :type "void")
+                nil [90436 95868])
+            ("IsQStringDigit" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("qsValue" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [95902 95918]))                  
+                :type "bool")
+                nil [95870 97478])
+            ("RefreshHWC_HS_WorkFlowList" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [97480 98197])
+            ("on_pushButton_2_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [98199 101077])
+            ("on_pushButton_HWC_HS_StirMotorSpeedSetl_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [101081 101974])
+            ("on_pushButton_HWC_HS_SampleGasFlowRateSet_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [101976 102780])
+            ("on_pushButton_HWC_HS_AttenuationGasFlowRateSet_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [102782 103754])
+            ("on_pushButton_HWC_HS_BottleTempSet_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [103756 104680])
+            ("on_pushButton_HWC_HS_FilterTempSet_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [104682 105604])
+            ("on_pushButton_HWC_HS_SampleFlowTempSet_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [105606 106571])
+            ("on_pushButton_HWC_HS_PipeTempSet_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [106573 107316])
+            ("on_pushButton_SetDetParam_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [107318 112715])
+            ("on_pushButton_4_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [112717 118030])
+            ("on_groupBox_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [118032 118075])
+            ("on_groupBox_clicked" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("checked" variable (:type "bool") (reparse-symbol arg-sub-list) [118114 118127]))                  
+                :type "void")
+                nil [118077 118582])
+            ("SetDeviceParamToBizLogizEngine" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("SetValue" variable
+                       (:pointer 1
+                        :type ("QWidget" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [118631 118649])
+                    ("iSetDeviceId" variable (:type "int") (reparse-symbol arg-sub-list) [118649 118666])
+                    ("iWidgetType" variable (:type "int") (reparse-symbol arg-sub-list) [118666 118682]))                  
+                :type "bool")
+                nil [118583 119608])
+            ("RefreshCurrentSystemStatus" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("iSystemStatus" variable (:type "int") (reparse-symbol arg-sub-list) [119654 119672]))                  
+                :type "void")
+                nil [119610 123937])
+            ("on_pushButton_SetScanParam_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [123942 126581])
+            ("RefreshAvaliableCommPortName" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [126583 128164])
+            ("slot_SerialPortOffine" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("iPort" variable (:type "int") (reparse-symbol arg-sub-list) [128207 128217])
+                    ("qsCommPortName" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [128218 128241]))                  
+                :type "void")
+                nil [128168 129059])
+            ("D2CrossLineMoved" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("dBlueXValue" variable (:type "double") (reparse-symbol arg-sub-list) [129095 129114])
+                    ("dBlueYValue" variable (:type "double") (reparse-symbol arg-sub-list) [129115 129134])
+                    ("dRedXValue" variable (:type "double") (reparse-symbol arg-sub-list) [129135 129153])
+                    ("dRedYValue" variable (:type "double") (reparse-symbol arg-sub-list) [129154 129173]))                  
+                :type "void")
+                nil [129061 129455])
+            ("slot_RefreshAvaliableCommPortName" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [129457 129549])
+            ("slot_ShowCommPort" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("iPort" variable (:type "int") (reparse-symbol arg-sub-list) [129586 129596])
+                    ("qsCommPortName" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [129597 129620]))                  
+                :type "void")
+                nil [129551 131243])
+            ("slot_LoadConfigFileComplete" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [131245 131359])
+            ("slot_ShowNormalDetResult" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("MaterialName" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [131403 131424]))                  
+                :type "void")
+                nil [131361 131767])
+            ("slot_ShowNormalDetResultTimeOut" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("iMessageBoxIndex" variable (:type "int") (reparse-symbol arg-sub-list) [131818 131839]))                  
+                :type "void")
+                nil [131769 132088])
+            ("slot_SystemLogReport" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("m_qsmsgType" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [132129 132149])
+                    ("m_qsContextFile" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [132150 132174])
+                    ("m_qsContextLine" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [132175 132199])
+                    ("m_qsCurDateTime" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [132200 132224])
+                    ("m_qsMsg" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [132225 132241]))                  
+                :type "void")
+                nil [132091 133287])
+            ("slot_ShowCurrentDevVersion" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("qsDevVersion" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [133333 133354]))                  
+                :type "void")
+                nil [133289 133785])
+            ("slot_ShowCurrentFirmwareVersion" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("qsFirmwareVersion" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [133836 133862]))                  
+                :type "void")
+                nil [133787 134308])
+            ("slot_ShowCurrentFastDetectVersion" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("qsFastDetectVersion" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [134361 134389]))                  
+                :type "void")
+                nil [134310 134824])
+            ("slot_ShowCurrentBiasVolVersion" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("qsBiasVolVersion" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [134874 134899]))                  
+                :type "void")
+                nil [134826 135334])
+            ("on_pushButton_Config_RefreshPort_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [136677 136825])
+            ("ConvertUILineEditTestToDouble" function
+               (:arguments 
+                  ( ("LineEdit" variable
+                       (:pointer 1
+                        :type ("QLineEdit" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [136861 136881])
+                    ("dResult" variable
+                       (:reference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [136881 136897])
+                    ("iCmdType" variable (:type "int") (reparse-symbol arg-sub-list) [136897 136910]))                  
+                :type "bool")
+                nil [136826 136916])
+            ("on_lineEdit_CtrlPressingDev_Open_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [136917 138507])
+            ("on_lineEdit_CtrlPressingDev_Press_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [138509 140096])
+            ("on_pushButton_Config_OpenClosePADPort_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [140098 140347])
+            ("on_pushButton_Config_OpenCloseCtrlPort_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [140349 140603])
+            ("on_pushButton_Config_HSOpenClosePort_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [140607 140856])
+            ("on_groupBox_HSDetLimitName_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [140858 141092])
+            ("on_lineEdit_editingFinished" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [141094 141357])
+            ("on_radioButtonIsSaveHWRec_clicked" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("checked" variable (:type "bool") (reparse-symbol arg-sub-list) [141410 141423]))                  
+                :type "void")
+                nil [141359 141478])
+            ("AddNewRowToTableWidget" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("widget" variable
+                       (:pointer 1
+                        :type ("QTableWidget" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [141520 141541])
+                    ("iMaxIndexLimit" variable (:type "int") (reparse-symbol arg-sub-list) [141582 141601])
+                    ("qsValueName" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [141642 141662])
+                    ("qsValue" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [141703 141719])
+                    ("qsHeader" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [141760 141777]))                  
+                :type "bool")
+                nil [141480 142276])
+            ("CopyRowInfToCutBoard" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("widget" variable
+                       (:pointer 1
+                        :type ("QTableWidget" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [142316 142338])
+                    ("iRowIndex" variable (:type "int") (reparse-symbol arg-sub-list) [142338 142352]))                  
+                :type "bool")
+                nil [142278 142357])
+            ("LoadHsConfigFile" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("qsFileName" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [142393 142412]))                  
+                :type "void")
+                nil [142359 144314])
+            ("modefyWorkList" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("DestParambase" variable
+                       (:pointer 1
+                        :type ("CWMDestParamBase" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [144349 144382])
+                    ("iHSFlowCtrlItemIndex" variable (:type "int") (reparse-symbol arg-sub-list) [144382 144407])
+                    ("qtwiModefyValue" variable
+                       (:pointer 1
+                        :type ("QTreeWidgetItem" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [144407 144440]))                  
+                :type "void")
+                nil [144316 145219])
+            ("SetDataFileFloder" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [145221 145661])
+            ("ClearNormalDetModeGraph" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [145663 145837])
+            ("RefreshNormalDetGraph" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [145839 146878])
+            ("on_pushButton_LoadHSParamFile_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [146883 147148])
+            ("on_pushButton_SaveHSParamFile_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [147150 149622])
+            ("on_treeWidget__HWC_HS_WorkFlowList_itemChanged" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("item" variable
+                       (:pointer 1
+                        :type ("QTreeWidgetItem" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [149688 149710])
+                    ("column" variable (:type "int") (reparse-symbol arg-sub-list) [149711 149722]))                  
+                :type "void")
+                nil [149624 153028])
+            ("on_treeWidget__HWC_HS_WorkFlowList_itemDoubleClicked" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("item" variable
+                       (:pointer 1
+                        :type ("QTreeWidgetItem" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [153100 153122])
+                    ("column" variable (:type "int") (reparse-symbol arg-sub-list) [153123 153134]))                  
+                :type "void")
+                nil [153030 153318])
+            ("on_pushButtonSetDataSavePath_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [153320 153575])
+            ("on_pushButton_SetDevAndWatchParam_clicked" function
+               (:parent "MainWindow"
+                :type "void")
+                nil [153577 153642])
+            ("on_comboBox_Config_SystemVoltage_currentIndexChanged" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("arg1" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("QString" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [153716 153736]))                  
+                :type "void")
+                nil [153646 154055])
+            ("on_comboBox_Config_ScanVersion_currentIndexChanged" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("arg1" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("QString" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [154125 154145]))                  
+                :type "void")
+                nil [154057 154476])
+            ("on_tabWidget_MainWin_objectNameChanged" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("objectName" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("QString" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [154534 154560]))                  
+                :type "void")
+                nil [154478 154565])
+            ("on_comboBox_Config_HardWareVersion_currentIndexChanged" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("arg1" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("QString" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [154639 154659]))                  
+                :type "void")
+                nil [154567 155115])
+            ("on_comboBox_Config_HardWareVersion_currentIndexChanged" function
+               (:parent "MainWindow"
+                :arguments 
+                  ( ("index" variable (:type "int") (reparse-symbol arg-sub-list) [155189 155199]))                  
+                :type "void")
+                nil [155117 155204]))          
+      :file "mainwindow.cpp"
+      :pointmax 155205
+      :fsize 163773
+      :lastmodtime '(22100 9793 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SystemInf_Normal" . ((string "\"系统正常，待机中...\"" 495 . 508)))
+          ("SystemStatus_Det" . ((number "1" 801 . 802)))
+          ("SystemStatus_SeriousWrong" . ((number "2" 838 . 839)))
+          ("SystemStatus_Idle" . ((number "4" 912 . 913)))
+          ("WidegetType_LineEdit" . ((number "1" 467 . 468)))
+          ("SystemInf_NormalWrong" . ((string "\"一般系统错误，可以检测，检测结果可能受影响\"" 622 . 645)))
+          ("SystemInf_Clean" . ((string "\"正在清洗\"" 721 . 727)))
+          ("SystemStatus_Clean" . ((number "5" 949 . 950)))
+          ("SystemInf_Idle" . ((string "\"系统空闲\"" 680 . 686)))
+          ("SystemStatus_NormalWrong" . ((number "3" 875 . 876)))
+          ("SystemInf_SeriousWrong" . ((string "\"严重系统错误，无法检测\"" 574 . 587)))
+          ("SystemStatus_Normal" . ((number "0" 764 . 765)))
+          ("SystemInf_Det" . ((string "\"检测中\"" 534 . 539)))
+          )
+)
+    (semanticdb-table "mainwindow.h"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("MAINWINDOW_H" variable (:constant-flag t) nil [30 42])
+            ("BSUI_CEMarcoDefinition.h" include nil nil [44 79])
+            ("QMainWindow" include (:system-flag t) nil [93 115])
+            ("CommunicationDebugDialog.h" include nil nil [116 153])
+            ("HardWareAdjustingDialog.h" include nil nil [154 190])
+            ("AboutDialog.h" include nil nil [191 215])
+            ("wm3dgraphview.h" include nil nil [216 242])
+            ("wm2dgraphview.h" include nil nil [243 269])
+            ("wmcoldiagraph.h" include nil nil [270 296])
+            ("WMHt3dGraphView.h" include nil nil [297 325])
+            ("WMHtCVGraphView.h" include nil nil [326 354])
+            ("WMCtCurveGraph.h" include nil nil [355 382])
+            ("QTreeWidgetItem" include (:system-flag t) nil [383 409])
+            ("WMEngineManager.h" include (:system-flag t) nil [410 438])
+            ("WMFlowCtrlClasses.h" include nil nil [439 469])
+            ("WMBSSystemVar.h" include (:system-flag t) nil [486 512])
+            ("BaseDataClasses.h" include (:system-flag t) nil [513 541])
+            ("deque" include (:system-flag t) nil [542 558])
+            ("QTimer" include (:system-flag t) nil [559 576])
+            ("WMSysWrongHandle.h" include (:system-flag t) nil [577 606])
+            ("QCloseEvent" include (:system-flag t) nil [607 629])
+            ("QTableWidget" include (:system-flag t) nil [630 653])
+            ("WMSystemLogHandle.h" include (:system-flag t) nil [654 684])
+            ("QDomDocument" include (:system-flag t) nil [685 708])
+            ("QVector" include (:system-flag t) nil [709 727])
+            ("WMPublicFunctionSys.h" include (:system-flag t) nil [728 760])
+            ("wmbaseclasssdk_global.h" include (:system-flag t) nil [761 795])
+            ("WMMacrodefinitionSys.h" include (:system-flag t) nil [796 829])
+            ("wm3dgraphview.h" include (:system-flag t) nil [830 856])
+            ("QMessageBox" include (:system-flag t) nil [857 879])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [882 902])
+            ("HSMode" variable (:constant-flag t) nil [911 917])
+            ("FocusDebugMode" variable (:constant-flag t) nil [928 942])
+            ("Ui" type
+               (:members 
+                  ( ("MainWindow" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [959 976]))                  
+                :type "namespace")
+                nil [944 979])
+            ("MainWindow" type
+               (:superclasses 
+                  ( ("QMainWindow" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [1035 1042])
+                    ("MainWindow" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("parent" variable
+                               (:pointer 1
+                                :default-value "0"
+                                :type ("QWidget" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1067 1086]))                          
+                        :type ("MainWindow" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1056 1088])
+                    ("MainWindow" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1093 1107])
+                    ("closeEvent" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("event" variable
+                               (:pointer 1
+                                :type ("QCloseEvent" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1128 1147]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1112 1148])
+                    ("private" label nil (reparse-symbol classsubparts) [1150 1158])
+                    ("ui" variable
+                       (:pointer 1
+                        :type ("Ui::MainWindow" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1163 1182])
+                    ("private" label nil (reparse-symbol classsubparts) [1183 1191])
+                    ("UnPakageQobjectValueToString" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("obJsonValue" variable (:type ("QJsonObject" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1253 1277])
+                            ("qsParaName" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1277 1296]))                          
+                        :type ("QString" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1216 1297])
+                    ("m_pCommunicationDebugDlg" variable
+                       (:pointer 1
+                        :type ("CCommunicationDebugDialog" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1319 1371])
+                    ("m_pHardWareAdjustingdlg" variable
+                       (:pointer 1
+                        :type ("CHardWareAdjustingDialog" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1376 1427])
+                    ("m_pAboutDlg" variable
+                       (:pointer 1
+                        :type ("CAboutDialog" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1432 1471])
+                    ("m_bInitialized" variable (:type "bool") (reparse-symbol classsubparts) [1477 1497])
+                    ("m_iHS_FlowCtrlItem_Status" variable (:type "int") (reparse-symbol classsubparts) [1667 1697])
+                    ("m_iDataLineIndex" variable (:type "int") (reparse-symbol classsubparts) [1703 1724])
+                    ("m_iHSDetIndex" variable (:type "int") (reparse-symbol classsubparts) [1729 1747])
+                    ("m_iHSDetFinishIndex" variable (:type "int") (reparse-symbol classsubparts) [1752 1776])
+                    ("m_iHSOFFIndex" variable (:type "int") (reparse-symbol classsubparts) [1781 1799])
+                    ("m_iHSCurIndex" variable (:type "int") (reparse-symbol classsubparts) [1804 1822])
+                    ("m_bIsRefeshParam" variable (:type "bool") (reparse-symbol classsubparts) [1828 1850])
+                    ("m_qtwiCurCtrlItem" variable
+                       (:pointer 1
+                        :type ("QTreeWidgetItem" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1856 1891])
+                    ("m_GraphDataPmod" variable (:type ("CMatrix_Graph" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1899 1932])
+                    ("m_GraphDataNmod" variable (:type ("CMatrix_Graph" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1937 1970])
+                    ("m_iCtCurveGraphColumnIndex" variable (:type "int") (reparse-symbol classsubparts) [1977 2008])
+                    ("m_iHWC_HS_OperationListSelItem" variable (:type "int") (reparse-symbol classsubparts) [2017 2052])
+                    ("m_iHWC_HS_HWC_HS_WorkFlowListSelItem" variable (:type "int") (reparse-symbol classsubparts) [2057 2098])
+                    ("m_iHSDetTime" variable (:type "int") (reparse-symbol classsubparts) [2104 2121])
+                    ("m_iLastWrongID" variable (:type "int") (reparse-symbol classsubparts) [2127 2146])
+                    ("m_bIsSystemClosing" variable (:type "bool") (reparse-symbol classsubparts) [2152 2176])
+                    ("m_iRecordNum" variable (:type "int") (reparse-symbol classsubparts) [2182 2199])
+                    ("public" label nil (reparse-symbol classsubparts) [2270 2278])
+                    ("m_hsFlowCtrlItemTemp" variable (:type ("CWMFlowCtrlItem" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2285 2322])
+                    ("m_hsFCIManger_Det" variable (:type ("CWMFlowCtrlItemManager" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2339 2380])
+                    ("m_hsFCIManger_DetFinish" variable (:type ("CWMFlowCtrlItemManager" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2392 2439])
+                    ("m_hsFCIManger_HWOff" variable (:type ("CWMFlowCtrlItemManager" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2453 2496])
+                    ("public" label nil (reparse-symbol classsubparts) [2509 2516])
+                    ("m_p3DGraphP" variable
+                       (:pointer 1
+                        :type ("CWM3DGraphView" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2527 2556])
+                    ("m_p3DGraphN" variable
+                       (:pointer 1
+                        :type ("CWM3DGraphView" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2569 2598])
+                    ("m_p2DGraphP" variable
+                       (:pointer 1
+                        :type ("CWM2DGraphView" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2611 2640])
+                    ("m_p2DGraphN" variable
+                       (:pointer 1
+                        :type ("CWM2DGraphView" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2653 2682])
+                    ("m_pDiagraphP" variable
+                       (:pointer 1
+                        :type ("CWMColDiagraph" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2695 2725])
+                    ("m_pDiagraphN" variable
+                       (:pointer 1
+                        :type ("CWMColDiagraph" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2738 2768])
+                    ("m_pHt3DGraphN" variable
+                       (:pointer 1
+                        :type ("CWMHt3dGraphView" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2782 2815])
+                    ("m_pHt3DGraphP" variable
+                       (:pointer 1
+                        :type ("CWMHt3dGraphView" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2831 2864])
+                    ("m_pHtCVGraph" variable
+                       (:pointer 1
+                        :type ("CWMHtCVGraphView" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2880 2912])
+                    ("m_pCtCurveGraph" variable
+                       (:pointer 1
+                        :type ("CWMCtCurveGraph" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2926 2961])
+                    ("m_pHtDiagraphN" variable
+                       (:pointer 1
+                        :type ("CWMColDiagraph" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2972 3006])
+                    ("m_pHtDiagraphP" variable
+                       (:pointer 1
+                        :type ("CWMColDiagraph" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [3011 3045])
+                    ("private" label nil (reparse-symbol classsubparts) [3046 3054])
+                    ("m_dStirRate" variable (:type "double") (reparse-symbol classsubparts) [3059 3078])
+                    ("m_dBottleTemp" variable (:type "double") (reparse-symbol classsubparts) [3083 3104])
+                    ("m_dPipeTemp" variable (:type "double") (reparse-symbol classsubparts) [3109 3128])
+                    ("m_dSampleGasTemp" variable (:type "double") (reparse-symbol classsubparts) [3133 3157])
+                    ("m_dFilterTemp" variable (:type "double") (reparse-symbol classsubparts) [3162 3183])
+                    ("m_dAttentionGasFlow" variable (:type "double") (reparse-symbol classsubparts) [3188 3215])
+                    ("m_dInjectorGasFlow" variable (:type "double") (reparse-symbol classsubparts) [3220 3246])
+                    ("m_dInjectorTemp" variable (:type "double") (reparse-symbol classsubparts) [3251 3274])
+                    ("m_dCoreTemp" variable (:type "double") (reparse-symbol classsubparts) [3279 3298])
+                    ("m_dCBoardTemp" variable (:type "double") (reparse-symbol classsubparts) [3303 3324])
+                    ("m_dSampleGasFlow" variable (:type "double") (reparse-symbol classsubparts) [3329 3353])
+                    ("m_dDetectorHum" variable (:type "double") (reparse-symbol classsubparts) [3358 3380])
+                    ("m_dDetectorPressure" variable (:type "double") (reparse-symbol classsubparts) [3385 3412])
+                    ("m_dDetectorTemp" variable (:type "double") (reparse-symbol classsubparts) [3417 3440])
+                    ("m_dDetectorFlow" variable (:type "double") (reparse-symbol classsubparts) [3445 3468])
+                    ("m_bIsStirRateUpdate" variable
+                       (:default-value "false"
+                        :type "bool")
+                        (reparse-symbol classsubparts) [3474 3508])
+                    ("m_bIsBottleTempUpdate" variable
+                       (:default-value "false"
+                        :type "bool")
+                        (reparse-symbol classsubparts) [3513 3549])
+                    ("m_bIsPipeTempUpdate" variable
+                       (:default-value "false"
+                        :type "bool")
+                        (reparse-symbol classsubparts) [3554 3588])
+                    ("m_bIsSampleGasTempUpdate" variable
+                       (:default-value "false"
+                        :type "bool")
+                        (reparse-symbol classsubparts) [3593 3632])
+                    ("m_bIsFilterTempUpdate" variable
+                       (:default-value "false"
+                        :type "bool")
+                        (reparse-symbol classsubparts) [3637 3673])
+                    ("m_bIsAttentionGasFlowUpdate" variable
+                       (:default-value "false"
+                        :type "bool")
+                        (reparse-symbol classsubparts) [3678 3720])
+                    ("m_bIsInjectorGasFlowUpdate" variable
+                       (:default-value "false"
+                        :type "bool")
+                        (reparse-symbol classsubparts) [3725 3766])
+                    ("m_bIsInjectorTempUpdate" variable
+                       (:default-value "false"
+                        :type "bool")
+                        (reparse-symbol classsubparts) [3771 3809])
+                    ("m_bIsCoreTempUpdate" variable
+                       (:default-value "false"
+                        :type "bool")
+                        (reparse-symbol classsubparts) [3814 3848])
+                    ("m_bIsCBoardTempUpdate" variable
+                       (:default-value "false"
+                        :type "bool")
+                        (reparse-symbol classsubparts) [3853 3889])
+                    ("m_bIsSampleGasFlowUpdate" variable
+                       (:default-value "false"
+                        :type "bool")
+                        (reparse-symbol classsubparts) [3894 3933])
+                    ("m_bIsDetectorUpdate" variable
+                       (:default-value "false"
+                        :type "bool")
+                        (reparse-symbol classsubparts) [3939 3973])
+                    ("m_iNormalDetLineIndexTemp" variable
+                       (:default-value "0"
+                        :type "int")
+                        (reparse-symbol classsubparts) [3980 4013])
+                    ("m_dequeNormalDetResultMessageBoxDeque" variable (:type ("deque" type
+                         (:template-specifier 
+                            ( ("QMessageBox" type (:pointer 1) nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [4018 4077])
+                    ("public" label nil (reparse-symbol classsubparts) [4080 4087])
+                    ("resetDeviceParmFormWin" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4158 4163]))                          
+                        :type "bool")
+                        (reparse-symbol classsubparts) [4130 4164])
+                    ("refreshFAIMSCoreParam" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4196 4201]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [4169 4202])
+                    ("RefreshAvaliableCommPortName" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [4208 4244])
+                    ("ApplySystemDetMode" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [4250 4276])
+                    ("StartHSDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [4300 4318])
+                    ("StopHSDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [4323 4340])
+                    ("StartNormalDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [4346 4368])
+                    ("StopNormalDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [4373 4394])
+                    ("StopNormalDetClean" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [4399 4425])
+                    ("StartContinousDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [4431 4456])
+                    ("StopContinousDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [4461 4485])
+                    ("private" label nil (reparse-symbol classsubparts) [4487 4495])
+                    ("InitGraphParam" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [4517 4539])
+                    ("RefreshHWInf" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [4546 4566])
+                    ("showEvent" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("ShowEvent" variable
+                               (:pointer 1
+                                :type ("QShowEvent" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4587 4611]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [4571 4612])
+                    ("m_pHtDiagraph" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("event" variable
+                               (:pointer 1
+                                :type ("QMouseEvent" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4637 4658]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [4617 4659])
+                    ("showWidgetHSSetFlowRateDialog" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4730 4735]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [4695 4736])
+                    ("showwidgetHSSetPressingDeviceDialog" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4782 4787]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [4741 4788])
+                    ("showWidgetHSSetStirSpeedDialog" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4829 4834]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [4793 4835])
+                    ("showWidgetHSSetTemperatueDialog" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4877 4882]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [4840 4883])
+                    ("FindItemInQTreeWidget" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("parent" variable
+                               (:pointer 1
+                                :type ("QTreeWidgetItem" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4916 4942])
+                            ("child" variable
+                               (:pointer 1
+                                :type ("QTreeWidgetItem" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4943 4968]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [4889 4969])
+                    ("RefreshHWC_HS_OperationList" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [4975 5010])
+                    ("RefreshHWC_HS_WorkFlowList" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [5015 5049])
+                    ("RefreshWorkFlowList" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("cwmFCIManager" variable
+                               (:reference 1
+                                :type ("CWMFlowCtrlItemManager" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5080 5119]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [5054 5120])
+                    ("IsQStringDigit" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("qsValue" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5145 5162]))                          
+                        :type "bool")
+                        (reparse-symbol classsubparts) [5125 5163])
+                    ("SetDeviceParamToBizLogizEngine" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("SetValue" variable
+                               (:pointer 1
+                                :type ("QWidget" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5205 5223])
+                            ("iSetDeviceId" variable (:type "int") (reparse-symbol arg-sub-list) [5223 5240])
+                            ("iWidgetType" variable (:type "int") (reparse-symbol arg-sub-list) [5240 5256]))                          
+                        :type "bool")
+                        (reparse-symbol classsubparts) [5169 5257])
+                    ("RefreshCurrentSystemStatus" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("iSystemStatus" variable (:type "int") (reparse-symbol arg-sub-list) [5295 5313]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [5263 5314])
+                    ("customMessageHandler" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("type" variable (:type ("QtMsgType" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5356 5371])
+                            ("context" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("QMessageLogContext" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5372 5406])
+                            ("msg" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("QString" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5407 5426]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [5323 5427])
+                    ("lineTest" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("type" variable (:type ("QtMsgType" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5455 5470])
+                            ("context" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("QMessageLogContext" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5471 5505])
+                            ("msg" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("QString" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5506 5525]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [5433 5526])
+                    ("AddNewRowToTableWidget" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("widget" variable
+                               (:pointer 1
+                                :type ("QTableWidget" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5590 5611])
+                            ("iMaxIndexLimit" variable (:type "int") (reparse-symbol arg-sub-list) [5645 5664])
+                            ("qsValueName" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5698 5718])
+                            ("qsValue" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5752 5768])
+                            ("qsHeader" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5802 5819]))                          
+                        :type "bool")
+                        (reparse-symbol classsubparts) [5561 5820])
+                    ("CopyRowInfToCutBoard" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("widget" variable
+                               (:pointer 1
+                                :type ("QTableWidget" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5851 5873])
+                            ("iRowIndex" variable (:type "int") (reparse-symbol arg-sub-list) [5873 5887]))                          
+                        :type "bool")
+                        (reparse-symbol classsubparts) [5825 5888])
+                    ("LoadHsConfigFile" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("qsFileName" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5915 5934]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [5893 5935])
+                    ("modefyWorkList" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("destParambaseTemp" variable
+                               (:pointer 1
+                                :type ("CWMDestParamBase" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5961 5998])
+                            ("iHSFlowCtrlItemIndex" variable (:type "int") (reparse-symbol arg-sub-list) [5998 6023])
+                            ("qtwiModefyValue" variable
+                               (:pointer 1
+                                :type ("QTreeWidgetItem" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6023 6056]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [5941 6057])
+                    ("SetDataFileFloder" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [6063 6088])
+                    ("ClearNormalDetModeGraph" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [6094 6125])
+                    ("RefreshNormalDetGraph" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [6131 6160])
+                    ("bizLogicEngine_startBizLogicEngine" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [6174 6216])
+                    ("bizLogicEngine_startPollEngine" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [6221 6259])
+                    ("bizLogicEngine_startHSCtrlEngine" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [6264 6304])
+                    ("bizLogicEngine_LoadConfigFile" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("qsFileName" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6344 6363]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [6309 6364])
+                    ("bizLogicEngine_SaveConfigFile" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("qsFileName" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6404 6423]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [6369 6424])
+                    ("sg_StartHSDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [6429 6450])
+                    ("sg_StopHSDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [6455 6475])
+                    ("sg_SetDeviceParam" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("iDevicePro" variable (:type "int") (reparse-symbol arg-sub-list) [6503 6518])
+                            ("dValue" variable (:type "double") (reparse-symbol arg-sub-list) [6518 6532]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [6480 6533])
+                    ("sg_SetAlgorithParam1" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("m_dSampleWeight" variable (:type "double") (reparse-symbol arg-sub-list) [6564 6587])
+                            ("m_dDilutionMultiple" variable (:type "double") (reparse-symbol arg-sub-list) [6617 6644])
+                            ("m_dqDoubleCoefficient" variable (:type ("deque" type
+                                 (:template-specifier 
+                                    ( ("double" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol arg-sub-list) [6674 6710])
+                            ("m_iDelNum" variable (:type "int") (reparse-symbol arg-sub-list) [6740 6754])
+                            ("m_iSampleNum" variable (:type "int") (reparse-symbol arg-sub-list) [6784 6801])
+                            ("m_iThreshold" variable (:type "double") (reparse-symbol arg-sub-list) [6831 6851])
+                            ("m_dCVMeanValueStart" variable (:type "double") (reparse-symbol arg-sub-list) [6881 6908])
+                            ("m_dCVMeanValueEnd" variable (:type "double") (reparse-symbol arg-sub-list) [6938 6963]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [6538 6964])
+                    ("sg_RefreshCommportName" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [6971 7001])
+                    ("sg_OpenSerailPort" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("iPort" variable (:type "int") (reparse-symbol arg-sub-list) [7029 7039])
+                            ("qsCommPortName" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7039 7062]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [7006 7063])
+                    ("sig_StartNormalDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [7069 7095])
+                    ("sig_StopNormalDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [7100 7125])
+                    ("sig_StopClean" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [7130 7151])
+                    ("sig_ExitApplication" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [7157 7184])
+                    ("sig_SwitchBSEngineDetMode" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [7190 7223])
+                    ("sig_ChangDetMode" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [7229 7253])
+                    ("public" label nil (reparse-symbol classsubparts) [7331 7344])
+                    ("slot_InitFinish" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [7350 7373])
+                    ("slot_InitStart" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [7378 7400])
+                    ("slot_SysWrongHandle" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("cSysWrongInf" variable (:type ("CWMSysWrongInf" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7430 7458]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [7405 7459])
+                    ("slot_OneLineScanFinish" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("lineIndex" variable (:type "int") (reparse-symbol arg-sub-list) [7568 7582])
+                            ("datalineP" variable (:type ("CDataLine" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7582 7602])
+                            ("datalineN" variable (:type ("CDataLine" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7602 7622]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [7540 7623])
+                    ("CrossLineMoved" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("iRowIndex" variable (:type "int") (reparse-symbol arg-sub-list) [7690 7704])
+                            ("dYValue" variable (:type "double") (reparse-symbol arg-sub-list) [7705 7720])
+                            ("iColumnIndex" variable (:type "int") (reparse-symbol arg-sub-list) [7721 7738])
+                            ("dXValue" variable (:type "double") (reparse-symbol arg-sub-list) [7739 7754])
+                            ("dDataValue" variable (:type "double") (reparse-symbol arg-sub-list) [7755 7774]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [7669 7775])
+                    ("CrossLineMoved" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("iRowIndex" variable (:type "int") (reparse-symbol arg-sub-list) [7801 7815])
+                            ("dYValue" variable (:type "double") (reparse-symbol arg-sub-list) [7816 7831])
+                            ("iColumnIndex" variable (:type "int") (reparse-symbol arg-sub-list) [7832 7849])
+                            ("dXValue" variable (:type "double") (reparse-symbol arg-sub-list) [7850 7865])
+                            ("dDataValue" variable (:type "double") (reparse-symbol arg-sub-list) [7866 7884])
+                            ("cDataMode" variable (:type "int") (reparse-symbol arg-sub-list) [7884 7899]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [7780 7900])
+                    ("slot_EngineCloseFinish" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [7906 7936])
+                    ("slot_PollEngineCheckFinish" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [7941 7975])
+                    ("slot_GetRawFishParam" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("dTemp" variable (:type "double") (reparse-symbol arg-sub-list) [8029 8042])
+                            ("dFlowRate" variable (:type "double") (reparse-symbol arg-sub-list) [8042 8059])
+                            ("dPressure" variable (:type "double") (reparse-symbol arg-sub-list) [8059 8076])
+                            ("dHumidity" variable (:type "double") (reparse-symbol arg-sub-list) [8076 8093]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [8003 8094])
+                    ("slot_GetSampleInjectorTemp" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("dSampleInjectorTemp" variable (:type "double") (reparse-symbol arg-sub-list) [8134 8161]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [8101 8162])
+                    ("slot_GetMainPumpFlowRate" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("dValue" variable (:type "double") (reparse-symbol arg-sub-list) [8198 8212]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [8168 8213])
+                    ("slot_GetPADSensorTemp" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("dValue" variable (:type "double") (reparse-symbol arg-sub-list) [8245 8259]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [8218 8260])
+                    ("slot_GetMainBoardTemp" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("dValue" variable (:type "double") (reparse-symbol arg-sub-list) [8292 8306]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [8265 8307])
+                    ("slot_GetHSStirParam" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("dValueStirSpeed" variable (:type "double") (reparse-symbol arg-sub-list) [8337 8360])
+                            ("dValueSwitchMotorMoveSpeed" variable (:type "double") (reparse-symbol arg-sub-list) [8389 8423]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [8312 8424])
+                    ("slot_GetFilterTemp" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("dValue" variable (:type "double") (reparse-symbol arg-sub-list) [8453 8467]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [8429 8468])
+                    ("slot_GetBottleTemp" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("dValue" variable (:type "double") (reparse-symbol arg-sub-list) [8497 8511]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [8473 8512])
+                    ("slot_GetPipeTemp" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("dValue" variable (:type "double") (reparse-symbol arg-sub-list) [8539 8553]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [8517 8554])
+                    ("slot_GetSampleGasTemp" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("dValue" variable (:type "double") (reparse-symbol arg-sub-list) [8586 8600]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [8559 8601])
+                    ("slot_GetSampleGasFlow" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("dValue" variable (:type "double") (reparse-symbol arg-sub-list) [8633 8647]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [8606 8648])
+                    ("slot_GetAttenGasFlow" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("dValue" variable (:type "double") (reparse-symbol arg-sub-list) [8679 8693]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [8653 8694])
+                    ("slot_HSScanFinish" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("dValue" variable (:type "double") (reparse-symbol arg-sub-list) [8722 8736])
+                            ("dIonValue" variable (:type "double") (reparse-symbol arg-sub-list) [8736 8753]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [8699 8754])
+                    ("slot_RefreshWorkFlow" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [8759 8787])
+                    ("slot_HSEngineExecWorkFlowFinish" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("iWorkFlowID" variable (:type "int") (reparse-symbol arg-sub-list) [8830 8846]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [8793 8847])
+                    ("slot_ShowHSIonValue" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("dIonValue" variable (:type "double") (reparse-symbol arg-sub-list) [8877 8894]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [8852 8895])
+                    ("slot_SerialPortOffine" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("iPort" variable (:type "int") (reparse-symbol arg-sub-list) [8929 8939])
+                            ("qsCommPortName" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8939 8962]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [8902 8963])
+                    ("D2CrossLineMoved" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("dBlueXValue" variable (:type "double") (reparse-symbol arg-sub-list) [8991 9010])
+                            ("dBlueYValue" variable (:type "double") (reparse-symbol arg-sub-list) [9011 9030])
+                            ("dRedXValue" variable (:type "double") (reparse-symbol arg-sub-list) [9031 9049])
+                            ("dRedYValue" variable (:type "double") (reparse-symbol arg-sub-list) [9050 9069]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [8969 9070])
+                    ("slot_RefreshAvaliableCommPortName" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [9076 9117])
+                    ("slot_ShowCommPort" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("iPort" variable (:type "int") (reparse-symbol arg-sub-list) [9146 9156])
+                            ("qsCommPortName" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9156 9179]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [9123 9180])
+                    ("slot_LoadConfigFileComplete" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [9185 9220])
+                    ("slot_ShowNormalDetResult" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("MaterialName" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9256 9277]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [9226 9278])
+                    ("slot_ShowNormalDetResultTimeOut" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("iMessageBoxIndex" variable (:type "int") (reparse-symbol arg-sub-list) [9320 9341]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [9283 9342])
+                    ("slot_SystemLogReport" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("m_qsmsgType" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9375 9395])
+                            ("m_qsContextFile" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9425 9449])
+                            ("m_qsContextLine" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9479 9503])
+                            ("m_qsCurDateTime" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9533 9557])
+                            ("m_qsMsg" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9587 9603]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [9349 9604])
+                    ("slot_ShowCurrentDevVersion" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("qsDevVersion" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10913 10934]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [10881 10935])
+                    ("slot_ShowCurrentFirmwareVersion" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("qsFirmwareVersion" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10977 11003]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [10940 11004])
+                    ("slot_ShowCurrentFastDetectVersion" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("FastDetectVersion" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11048 11074]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [11009 11075])
+                    ("slot_ShowCurrentBiasVolVersion" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("qsBiasVolVersion" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11116 11141]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [11080 11142])
+                    ("private" label nil (reparse-symbol classsubparts) [11145 11159])
+                    ("on_action_Exit_triggered" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [11165 11197])
+                    ("on_lineEdit_DFStart_selectionChanged" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [11202 11246])
+                    ("on_lineEdit_DFStart_customContextMenuRequested" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("pos" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("QPoint" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [11303 11321]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [11251 11322])
+                    ("on_lineEdit_DFStart_cursorPositionChanged" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("arg1" variable (:type "int") (reparse-symbol arg-sub-list) [11374 11383])
+                            ("arg2" variable (:type "int") (reparse-symbol arg-sub-list) [11384 11393]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [11327 11394])
+                    ("on_pushButton_CommunicationDebug_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [11399 11447])
+                    ("on_pushButton_HardWareAdjusting_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [11452 11499])
+                    ("on_action_About_triggered" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [11504 11537])
+                    ("on_tabWidget_MainWin_currentChanged" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("index" variable (:type "int") (reparse-symbol arg-sub-list) [11583 11593]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [11542 11594])
+                    ("on_comboBox__HWC_HS_OperationName_currentIndexChanged" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("arg1" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("QString" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [11658 11678]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [11599 11679])
+                    ("on_comboBox__HWC_HS_OperationName_currentIndexChanged" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("index" variable (:type "int") (reparse-symbol arg-sub-list) [11743 11753]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [11684 11754])
+                    ("on_tabWidget_HWC_HeadSpace_currentChanged" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("index" variable (:type "int") (reparse-symbol arg-sub-list) [11806 11816]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [11759 11817])
+                    ("on_pushButton_Start_Stop_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [11822 11862])
+                    ("on_pushButton_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [11867 11896])
+                    ("on_pushButton__HWC_HS_AddOperation_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [11901 11951])
+                    ("on_radioButton_HWC_HS_Detecting_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [11956 12003])
+                    ("on_radioButton__HWC_HS_DetectFinish_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [12008 12059])
+                    ("on_radioButton__HWC_HS_OffHardWare_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [12064 12114])
+                    ("on_pushButton__HWC_HS_AddWorkFlowOrder_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [12119 12173])
+                    ("on_action_SaveConfigFile_triggered" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [12179 12221])
+                    ("on_action_LoadConfigFile_triggered" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [12226 12268])
+                    ("on_radioButton_Continnus_PositiveMode_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [12273 12326])
+                    ("on_radioButton_Continnus_NegativeMode_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [12331 12384])
+                    ("on_tabWidget_HardWareCtrl_currentChanged" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("index" variable (:type "int") (reparse-symbol arg-sub-list) [12435 12445]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [12389 12446])
+                    ("on_tabWidget_HWC_HeadSpace_destroyed" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [12451 12495])
+                    ("on_treeWidget__HWC_HS_OperationList_itemClicked" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("item" variable
+                               (:pointer 1
+                                :type ("QTreeWidgetItem" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [12553 12575])
+                            ("column" variable (:type "int") (reparse-symbol arg-sub-list) [12576 12587]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [12500 12588])
+                    ("on_treeWidget__HWC_HS_WorkFlowList_itemClicked" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("item" variable
+                               (:pointer 1
+                                :type ("QTreeWidgetItem" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [12645 12667])
+                            ("column" variable (:type "int") (reparse-symbol arg-sub-list) [12668 12679]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [12593 12680])
+                    ("on_pushButton_3_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [12685 12716])
+                    ("on_pushButton_2_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [12721 12752])
+                    ("on_pushButton_HWC_HS_StirMotorSpeedSetl_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [12759 12814])
+                    ("on_pushButton_HWC_HS_SampleGasFlowRateSet_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [12819 12876])
+                    ("on_pushButton_HWC_HS_AttenuationGasFlowRateSet_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [12881 12943])
+                    ("on_pushButton_HWC_HS_BottleTempSet_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [12948 12998])
+                    ("on_pushButton_HWC_HS_FilterTempSet_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [13003 13053])
+                    ("on_pushButton_HWC_HS_SampleFlowTempSet_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [13058 13112])
+                    ("on_pushButton_HWC_HS_PipeTempSet_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [13117 13165])
+                    ("on_pushButton_SetDetParam_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [13170 13211])
+                    ("on_pushButton_4_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [13216 13247])
+                    ("on_groupBox_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [13252 13279])
+                    ("on_groupBox_clicked" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("checked" variable (:type "bool") (reparse-symbol arg-sub-list) [13309 13322]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [13284 13323])
+                    ("on_pushButton_SetScanParam_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [13328 13370])
+                    ("on_pushButton_Config_RefreshPort_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [13375 13423])
+                    ("on_lineEdit_CtrlPressingDev_Open_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [13428 13476])
+                    ("on_lineEdit_CtrlPressingDev_Press_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [13481 13530])
+                    ("on_pushButton_Config_OpenClosePADPort_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [13535 13588])
+                    ("on_pushButton_Config_OpenCloseCtrlPort_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [13593 13647])
+                    ("on_pushButton_Config_HSOpenClosePort_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [13652 13704])
+                    ("on_groupBox_HSDetLimitName_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [13709 13751])
+                    ("on_lineEdit_editingFinished" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [13808 13843])
+                    ("on_radioButtonIsSaveHWRec_clicked" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("checked" variable (:type "bool") (reparse-symbol arg-sub-list) [13887 13900]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [13848 13901])
+                    ("on_pushButton_LoadHSParamFile_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [13906 13951])
+                    ("on_pushButton_SaveHSParamFile_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [13956 14001])
+                    ("on_treeWidget__HWC_HS_WorkFlowList_itemChanged" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("item" variable
+                               (:pointer 1
+                                :type ("QTreeWidgetItem" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [14058 14080])
+                            ("column" variable (:type "int") (reparse-symbol arg-sub-list) [14081 14092]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [14006 14093])
+                    ("on_treeWidget__HWC_HS_WorkFlowList_itemDoubleClicked" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("item" variable
+                               (:pointer 1
+                                :type ("QTreeWidgetItem" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [14156 14178])
+                            ("column" variable (:type "int") (reparse-symbol arg-sub-list) [14179 14190]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [14098 14191])
+                    ("on_pushButtonSetDataSavePath_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [14196 14240])
+                    ("on_pushButton_SetDevAndWatchParam_clicked" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [14245 14294])
+                    ("on_comboBox_Config_SystemVoltage_currentIndexChanged" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("arg1" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("QString" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [14357 14377]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [14299 14378])
+                    ("on_comboBox_Config_ScanVersion_currentIndexChanged" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("arg1" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("QString" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [14439 14459]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [14383 14460])
+                    ("on_tabWidget_MainWin_objectNameChanged" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("objectName" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("QString" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [14509 14535]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [14465 14536])
+                    ("on_comboBox_Config_HardWareVersion_currentIndexChanged" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("arg1" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("QString" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [14601 14621]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [14541 14622])
+                    ("on_comboBox_Config_HardWareVersion_currentIndexChanged" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("index" variable (:type "int") (reparse-symbol arg-sub-list) [14687 14697]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [14627 14698]))                  
+                :type "class")
+                nil [981 14701])
+            ("w" variable
+               (:typemodifiers ("extern")
+                :type ("MainWindow" type (:type "class") nil nil))
+                nil [14702 14722]))          
+      :file "mainwindow.h"
+      :pointmax 14746
+      :fsize 15012
+      :lastmodtime '(22093 35973 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "BSUI_CEMarcoDefinition.h"
+      :file "BSUI_CEMarcoDefinition.h"
+      :fsize 641
+      :lastmodtime '(22093 12596 0 0))
+    (semanticdb-table "CommunicationDebugDialog.h"
+      :file "CommunicationDebugDialog.h"
+      :fsize 422
+      :lastmodtime '(22093 12596 0 0))
+    (semanticdb-table "HardWareAdjustingDialog.h"
+      :file "HardWareAdjustingDialog.h"
+      :fsize 414
+      :lastmodtime '(22093 12596 0 0))
+    (semanticdb-table "AboutDialog.h"
+      :file "AboutDialog.h"
+      :fsize 318
+      :lastmodtime '(22093 12596 0 0)))
+  :file "!Users!shenmutong!WorkSpace!SoftWareDepartment!BlueSolutionProject!BSUI_CE!BSUI_CE!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

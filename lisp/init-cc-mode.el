@@ -23,6 +23,7 @@
                  c-font-lock-keywords-3)))
 
   (setq cc-search-directories '("." "/usr/include" "/usr/local/include/*" "../*/include" "$WXWIN/include" "~/Qt5.3.1/5.3/Src"))
+  ; "/usr/src/Qt5.5.0/Src"
 
   (setq c-C++-access-key "\\<\\(slots\\|signals\\|private\\|protected\\|public\\)\\>[ \t]*[(slots\\|signals)]*[ \t]*:")
   (font-lock-add-keywords 'c++-mode '(("\\<\\(Q_OBJECT\\|public slots\\|public signals\\|private slots\\|private signals\\|protected slots\\|protected signals\\)\\>" . font-lock-constant-face)))
@@ -33,6 +34,12 @@
 
   ;give me NO newline automatically after electric expressions are entered
   (setq c-auto-newline nil)
+
+  ;add tags 
+  (setq tags-file-name usr/src/linux/TAGS)
+  (setq tags-file-name usr/src/Qt5.5.0/TAGS)
+  
+
 
   ; @see http://xugx2007.blogspot.com.au/2007/06/benjamin-rutts-emacs-c-development-tips.html
   (setq compilation-window-height 8)

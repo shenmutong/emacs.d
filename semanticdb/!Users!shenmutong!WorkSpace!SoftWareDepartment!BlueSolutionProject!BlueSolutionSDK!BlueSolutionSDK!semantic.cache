@@ -1,0 +1,292 @@
+;; Object BlueSolutionSDK/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "BlueSolutionSDK/"
+  :tables
+  (list
+    (semanticdb-table "WMSysWrongHandle.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("WMSysWrongHandle.h" include nil nil [1 30])
+            ("CWMSysWrongHandle" function
+               (:constructor-flag t
+                :parent "CWMSysWrongHandle"
+                :arguments 
+                  ( ("parent" variable
+                       (:pointer 1
+                        :type ("QObject" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [70 86]))                  
+                :type ("CWMSysWrongHandle" type (:type "class") nil nil))
+                nil [33 136])
+            ("slot_SysWrongHandle" function
+               (:parent "CWMSysWrongHandle"
+                :arguments 
+                  ( ("iWrongID" variable (:type "int") (reparse-symbol arg-sub-list) [183 196]))                  
+                :type "void")
+                nil [139 8523])
+            ("CWMSysWrongInf" function
+               (:constructor-flag t
+                :parent "CWMSysWrongInf"
+                :type ("CWMSysWrongInf" type (:type "class") nil nil))
+                nil [8527 8564])
+            ("CWMSysWrongInf" function
+               (:constructor-flag t
+                :parent "CWMSysWrongInf"
+                :arguments 
+                  ( ("iWrongType" variable (:type "int") (reparse-symbol arg-sub-list) [8597 8612])
+                    ("iWrongID" variable (:type "int") (reparse-symbol arg-sub-list) [8613 8626])
+                    ("qsWrongInf" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8627 8646]))                  
+                :type ("CWMSysWrongInf" type (:type "class") nil nil))
+                nil [8566 8757])
+            ("=" function
+               (:operator-flag t
+                :parent "CWMSysWrongInf"
+                :arguments 
+                  ( ("SWI" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("CWMSysWrongInf" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8801 8827]))                  
+                :type ("CWMSysWrongInf" type (:type "class") nil nil))
+                nil [8759 8958])
+            ("CWMSysWrongInf" function
+               (:destructor-flag t
+                :parent "CWMSysWrongInf"
+                :type "void")
+                nil [8960 9056])
+            ("SetWrongInf" function
+               (:parent "CWMSysWrongInf"
+                :arguments 
+                  ( ("iWrongType" variable (:type "int") (reparse-symbol arg-sub-list) [9091 9106])
+                    ("iWrongID" variable (:type "int") (reparse-symbol arg-sub-list) [9107 9120])
+                    ("qsWrongInf" variable (:type ("QString" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9121 9140]))                  
+                :type "void")
+                nil [9058 9252])
+            ("BS_WMSysWrongHandle" variable (:type ("CWMSysWrongHandle" type (:type "class") nil nil)) nil [9254 9292]))          
+      :file "WMSysWrongHandle.cpp"
+      :pointmax 9295
+      :fsize 10828
+      :lastmodtime '(22093 12594 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "WMSysWrongHandle.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("WMSYSWRONGANDLE_H" variable (:constant-flag t) nil [35 52])
+            ("QObject" include (:system-flag t) nil [54 72])
+            ("bluesolutionsdk_global.h" include nil nil [73 108])
+            ("QDebug" include (:system-flag t) nil [178 195])
+            ("SysWrong_HRisk" variable (:constant-flag t) nil [205 219])
+            ("SysWrong_MRisk" variable (:constant-flag t) nil [230 244])
+            ("SysWrong_LRisk" variable (:constant-flag t) nil [255 269])
+            ("SysWrongId_UnknowWrong" variable (:constant-flag t) nil [282 304])
+            ("SysWrongId_PAD_FindCommFailed" variable (:constant-flag t) nil [339 368])
+            ("SysWrongId_RawFish_FindCommFailed" variable (:constant-flag t) nil [396 429])
+            ("SysWrongId_Ctrl_FindCommFailed" variable (:constant-flag t) nil [453 483])
+            ("SysWrongId_RawFish_FindDevFailed" variable (:constant-flag t) nil [512 544])
+            ("SysWrongId_HSCtrlBoard_FindDevFailed" variable (:constant-flag t) nil [572 608])
+            ("SysWrongId_HSSampleGasFlow_FindDevFailed" variable (:constant-flag t) nil [632 672])
+            ("SysWrongId_HSAttenGasFlow_FindDevFailed" variable (:constant-flag t) nil [692 731])
+            ("SysWrongId_HSDevBottleTemp_FindDevFailed" variable (:constant-flag t) nil [752 792])
+            ("SysWrongId_HSDevFilterTempTemp_FindDevFailed" variable (:constant-flag t) nil [812 856])
+            ("SysWrongId_HSDevSampleGasTemp_FindDevFailed" variable (:constant-flag t) nil [872 915])
+            ("SysWrongId_HSDevPipeTemp_FindDevFailed" variable (:constant-flag t) nil [933 971])
+            ("SysWrongId_RawFish_CommunicationFailed" variable (:constant-flag t) nil [995 1033])
+            ("SysWrongId_PAD_CommunicationFailed" variable (:constant-flag t) nil [1062 1096])
+            ("SysWrongId_HSCtrlBoard_CommunicationFailed" variable (:constant-flag t) nil [1129 1171])
+            ("SysWrongId_HSSampleGasFlow_CommunicationFailed" variable (:constant-flag t) nil [1196 1242])
+            ("SysWrongId_HSAttenGasFlow_CommunicationFailed" variable (:constant-flag t) nil [1263 1308])
+            ("SysWrongId_HSDevBottleTemp_CommunicationFailed" variable (:constant-flag t) nil [1330 1376])
+            ("SysWrongId_HSDevFilterTemp_CommunicationFailed" variable (:constant-flag t) nil [1397 1443])
+            ("SysWrongId_HSDevSampleGasTemp_CommunicationFailed" variable (:constant-flag t) nil [1460 1509])
+            ("SysWrongId_HSDevPipeTemp_CommunicationFailed" variable (:constant-flag t) nil [1527 1571])
+            ("SysWrongId_PAD_CoreTemp_High" variable (:constant-flag t) nil [1595 1623])
+            ("SysWrongId_PAD_MotherBoardTemp_High" variable (:constant-flag t) nil [1635 1670])
+            ("SysWrongId_RawFish_FlowRate_High" variable (:constant-flag t) nil [1683 1715])
+            ("SysWrongId_RawFish_Temp_High" variable (:constant-flag t) nil [1727 1755])
+            ("SysWrongId_RawFish_Press_High" variable (:constant-flag t) nil [1767 1796])
+            ("SysWrongId_RawFish_Hum_High" variable (:constant-flag t) nil [1808 1835])
+            ("SysWrongId_HSStrSpeed_High" variable (:constant-flag t) nil [1848 1874])
+            ("SysWrongId_HSPressSpeed_High" variable (:constant-flag t) nil [1895 1923])
+            ("SysWrongId_HSPipeTemp_High" variable (:constant-flag t) nil [1942 1968])
+            ("SysWrongId_HSBottleTemp_High" variable (:constant-flag t) nil [1989 2017])
+            ("SYsWrongId_HSFilterTemp_High" variable (:constant-flag t) nil [2036 2064])
+            ("SysWrongId_HSSampleGasTemp_High" variable (:constant-flag t) nil [2083 2114])
+            ("SysWrongId_HSSampleGasFlowRate_High" variable (:constant-flag t) nil [2130 2165])
+            ("SysWrongId_HSAttenGasFlowRate_High" variable (:constant-flag t) nil [2177 2211])
+            ("SysWrongId_SetParamWrong_MaxLimit" variable (:constant-flag t) nil [2225 2258])
+            ("SysWrongId_SetParamWrong_MinLimit" variable (:constant-flag t) nil [2272 2305])
+            ("SysWrongId_SetParamWrong_CommFailed" variable (:constant-flag t) nil [2319 2354])
+            ("SysWrongId_LoadConfigWrong" variable (:constant-flag t) nil [2367 2393])
+            ("SysWrongId_SaveConfigWrong" variable (:constant-flag t) nil [2414 2440])
+            ("CWMSysWrongInf" variable (:type ("BLUESOLUTIONSDKSHARED_EXPORT" type
+                 (:prototype t
+                  :type "class")
+                  nil nil)) nil [2455 2882])
+            ("QObject" variable (:type "int") nil [2946 3198])
+            ("BS_WMSysWrongHandle" variable (:type ("CWMSysWrongHandle" type (:type "class") nil nil)) nil [3236 3274]))          
+      :file "WMSysWrongHandle.h"
+      :pointmax 3304
+      :fsize 3431
+      :lastmodtime '(22093 12594 0 0)
+      :unmatched-syntax '((symbol 3207 . 3235) (EXTERN 3200 . 3206) (PUBLIC 2939 . 2945) (punctuation 2937 . 2938) (symbol 2919 . 2936) (symbol 2890 . 2918) (CLASS 2884 . 2889))
+      :lexical-table 
+        '(("SysWrongId_HSCtrlBoard_FindDevFailed" . ((number "5" 622 . 623)))
+          ("SysWrongId_HSDevPipeTemp_CommunicationFailed" . ((number "19" 1583 . 1585)))
+          ("SysWrongId_RawFish_FindDevFailed" . ((number "4" 562 . 563)))
+          ("SysWrong_LRisk" . ((number "2" 270 . 271)))
+          ("SysWrongId_HSAttenGasFlow_FindDevFailed" . ((number "7" 742 . 743)))
+          ("SysWrongId_HSDevPipeTemp_FindDevFailed" . ((number "11" 983 . 985)))
+          ("SysWrong_HRisk" . ((number "0" 220 . 221)))
+          ("SysWrongId_HSSampleGasFlow_FindDevFailed" . ((number "6" 682 . 683)))
+          ("SysWrongId_HSDevSampleGasTemp_FindDevFailed" . ((number "10" 922 . 924)))
+          ("SysWrongId_HSCtrlBoard_CommunicationFailed" . ((number "13" 1185 . 1187)))
+          ("SysWrongId_HSAttenGasFlowRate_High" . ((number "33" 2213 . 2215)))
+          ("SysWrongId_SetParamWrong_MinLimit" . ((number "35" 2308 . 2310)))
+          ("SysWrongId_HSDevFilterTemp_CommunicationFailed" . ((number "17" 1449 . 1451)))
+          ("SysWrong_MRisk" . ((number "1" 245 . 246)))
+          ("SysWrongId_RawFish_FindCommFailed" . ((number "2" 443 . 444)))
+          ("SysWrongId_HSAttenGasFlow_CommunicationFailed" . ((number "15" 1319 . 1321)))
+          ("SysWrongId_HSPipeTemp_High" . ((number "28" 1978 . 1980)))
+          ("SysWrongId_HSSampleGasFlow_CommunicationFailed" . ((number "14" 1252 . 1254)))
+          ("SYsWrongId_HSFilterTemp_High" . ((number "30" 2072 . 2074)))
+          ("SysWrongId_HSSampleGasFlowRate_High" . ((number "32" 2166 . 2168)))
+          ("SysWrongId_PAD_FindCommFailed" . ((number "1" 386 . 387)))
+          ("SysWrongId_HSDevBottleTemp_FindDevFailed" . ((number "8" 802 . 803)))
+          ("SysWrongId_HSDevSampleGasTemp_CommunicationFailed" . ((number "18" 1516 . 1518)))
+          ("SysWrongId_RawFish_Hum_High" . ((number "25" 1836 . 1838)))
+          ("SysWrongId_SetParamWrong_MaxLimit" . ((number "34" 2261 . 2263)))
+          ("SysWrongId_SaveConfigWrong" . ((number "38" 2450 . 2452)))
+          ("WMSYSWRONGANDLE_H")
+          ("SysWrongId_Ctrl_FindCommFailed" . ((number "3" 500 . 501)))
+          ("SysWrongId_HSDevFilterTempTemp_FindDevFailed" . ((number "9" 862 . 863)))
+          ("SysWrongId_PAD_CommunicationFailed" . ((number "39" 1118 . 1120)))
+          ("SysWrongId_PAD_MotherBoardTemp_High" . ((number "21" 1671 . 1673)))
+          ("SysWrongId_RawFish_FlowRate_High" . ((number "22" 1716 . 1718)))
+          ("SysWrongId_LoadConfigWrong" . ((number "37" 2403 . 2405)))
+          ("SysWrongId_RawFish_CommunicationFailed" . ((number "12" 1051 . 1053)))
+          ("SysWrongId_RawFish_Temp_High" . ((number "23" 1756 . 1758)))
+          ("SysWrongId_RawFish_Press_High" . ((number "24" 1797 . 1799)))
+          ("SysWrongId_HSBottleTemp_High" . ((number "29" 2025 . 2027)))
+          ("SysWrongId_UnknowWrong" . ((number "0" 329 . 330)))
+          ("SysWrongId_HSStrSpeed_High" . ((number "26" 1884 . 1886)))
+          ("SysWrongId_HSSampleGasTemp_High" . ((number "31" 2119 . 2121)))
+          ("SysWrongId_SetParamWrong_CommFailed" . ((number "36" 2355 . 2357)))
+          ("SysWrongId_HSDevBottleTemp_CommunicationFailed" . ((number "16" 1386 . 1388)))
+          ("SysWrongId_PAD_CoreTemp_High" . ((number "20" 1624 . 1626)))
+          ("SysWrongId_HSPressSpeed_High" . ((number "27" 1931 . 1933)))
+          )
+)
+    (semanticdb-table "bluesolutionsdk_global.h"
+      :file "bluesolutionsdk_global.h"
+      :fsize 304
+      :lastmodtime '(22093 12594 0 0))
+    (semanticdb-table "WMBSSystemVar.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("WMBSSYSTEMVAR_H" variable (:constant-flag t) nil [33 48])
+            ("bluesolutionsdk_global.h" include nil nil [49 84])
+            ("QDateTime" include (:system-flag t) nil [85 105])
+            ("WMUserInfo.h" include nil nil [106 129])
+            ("WMAlarmAndFaultInfo.h" include nil nil [130 162])
+            ("WMSerialPortComm.h" include nil nil [163 192])
+            ("WMMacroDefinition.h" include (:system-flag t) nil [193 223])
+            ("QVector" include (:system-flag t) nil [224 242])
+            ("BaseDataClasses.h" include (:system-flag t) nil [243 271])
+            ("WMFlowCtrlClasses.h" include (:system-flag t) nil [272 302])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [335 355])
+            ("SystemPhase" type
+               (:members 
+                  ( ("SysPh_StartUp" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [374 388])
+                    ("SysPh_Idle" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [389 400])
+                    ("SysPh_Work" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [401 412])
+                    ("SysPh_ScanData" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [413 428])
+                    ("System_ShutDown" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [429 446])
+                    ("SysPh_Clean" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [446 458]))                  
+                :type "enum")
+                nil [356 459])
+            ("SystemStat" type
+               (:members 
+                  ( ("SysStat_WorkWell" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [477 494])
+                    ("SysStat_Alarm" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [495 509])
+                    ("SysStat_Fault" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [510 524])
+                    ("SysStat_FatalFault" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [525 545]))                  
+                :type "enum")
+                nil [460 546])
+            ("DetectMode" type
+               (:members 
+                  ( ("DtMode_Normal" variable
+                       (:constant-flag t
+                        :default-value (674 675)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [658 675])
+                    ("DtMode_Continuous" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [684 710])
+                    ("DtMode_HS" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [710 728]))                  
+                :type "enum")
+                nil [641 729])
+            ("CWMBSSystemVar" variable (:type ("BLUESOLUTIONSDKSHARED_EXPORT" type
+                 (:prototype t
+                  :type "class")
+                  nil nil)) nil [948 3076])
+            ("BS_WMSystemVar" variable (:type ("CWMBSSystemVar" type (:type "class") nil nil)) nil [3113 3143]))          
+      :file "WMBSSystemVar.h"
+      :pointmax 3171
+      :fsize 3911
+      :lastmodtime '(22093 12594 0 0)
+      :unmatched-syntax '((symbol 3084 . 3112) (EXTERN 3077 . 3083))
+      :lexical-table 
+        '(("WMBSSYSTEMVAR_H")
+          )
+)
+    (semanticdb-table "WMUserInfo.h"
+      :file "WMUserInfo.h"
+      :fsize 1235
+      :lastmodtime '(22093 12594 0 0))
+    (semanticdb-table "WMMacroDefinition.h"
+      :file "WMMacroDefinition.h"
+      :fsize 91
+      :lastmodtime '(22093 12594 0 0))
+    (semanticdb-table "WMFlowCtrlClasses.h"
+      :file "WMFlowCtrlClasses.h"
+      :fsize 8087
+      :lastmodtime '(22093 12594 0 0)))
+  :file "!Users!shenmutong!WorkSpace!SoftWareDepartment!BlueSolutionProject!BlueSolutionSDK!BlueSolutionSDK!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

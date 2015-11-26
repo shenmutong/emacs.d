@@ -1,0 +1,554 @@
+;; Object BSGuiUintTst/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "BSGuiUintTst/"
+  :tables
+  (list
+    (semanticdb-table "tst_bsguiuinttsttest.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("QString" include (:system-flag t) nil [1 19])
+            ("QtTest" include (:system-flag t) nil [20 37])
+            ("QCoreApplication" include (:system-flag t) nil [38 65])
+            ("mainwindow.h" include (:system-flag t) nil [66 89])
+            ("tst_bsguiuinttsttest.h" include (:system-flag t) nil [90 123])
+            ("WMBSSystemVar.h" include (:system-flag t) nil [124 150])
+            ("WMEngineManager.h" include (:system-flag t) nil [151 179])
+            ("BSGuiUintTstTest" function
+               (:constructor-flag t
+                :parent "BSGuiUintTstTest"
+                :type ("BSGuiUintTstTest" type (:type "class") nil nil))
+                nil [181 249])
+            ("initTestCase" function
+               (:parent "BSGuiUintTstTest"
+                :type "void")
+                nil [251 293])
+            ("cleanupTestCase" function
+               (:parent "BSGuiUintTstTest"
+                :type "void")
+                nil [295 339])
+            ("testCase" function
+               (:parent "BSGuiUintTstTest"
+                :type "void")
+                nil [341 460])
+            ("testCase_data" function
+               (:parent "BSGuiUintTstTest"
+                :type "void")
+                nil [462 580])
+            ("initTestCase_ApplySystemDetMode" function
+               (:parent "BSGuiUintTstTest"
+                :type "void")
+                nil [581 643])
+            ("cleanupTestCase_ApplySystemDetMode" function
+               (:parent "ntTstTest"
+                :type "int")
+                nil [657 711])
+            ("testCase_ApplySystemDetMode" function
+               (:parent "BSGuiUintTstTest"
+                :type "void")
+                nil [713 1145])
+            ("testCase_ApplySystemDetMode" function
+               (:parent "BSGuiUintTstTest"
+                :type "void")
+                nil [1147 2326])
+            ("initTestCase_StartHSDet" function
+               (:parent "BSGuiUintTstTest"
+                :type "void")
+                nil [2328 2383])
+            ("cleanupTestCase_StartHSDet" function
+               (:parent "BSGuiUintTstTest"
+                :type "void")
+                nil [2384 2442])
+            ("testCase_StartHSDet" function
+               (:parent "BSGuiUintTstTest"
+                :type "void")
+                nil [2443 3688])
+            ("testCase_StartHSDet_data" function
+               (:parent "BSGuiUintTstTest"
+                :type "void")
+                nil [3689 4440])
+            ("initTestCase_StopHSDet" function
+               (:parent "BSGuiUintTstTest"
+                :type "void")
+                nil [4442 4496])
+            ("cleanupTestCase_StopHSDet" function
+               (:parent "BSGuiUintTstTest"
+                :type "void")
+                nil [4497 4554])
+            ("testCase_StopHSDet" function
+               (:parent "BSGuiUintTstTest"
+                :type "void")
+                nil [4555 4641])
+            ("testCase_StopHSDet_data" function
+               (:parent "BSGuiUintTstTest"
+                :type "void")
+                nil [4642 4697])
+            ("initTestCase_StartNormalDet" function
+               (:parent "BSGuiUintTstTest"
+                :type "void")
+                nil [4698 4757])
+            ("cleanupTestCase_StartNormalDet" function
+               (:parent "BSGuiUintTstTest"
+                :type "void")
+                nil [4758 4820])
+            ("testCase_StartNormalDet" function
+               (:parent "BSGuiUintTstTest"
+                :type "void")
+                nil [4821 4940])
+            ("setText" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("QString::toInt" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4994 5035]))                  
+                :type "int")
+                nil [4986 5037])
+            ("setText" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("QString::toInt" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5083 5137]))                  
+                :type "int")
+                nil [5075 5139])
+            ("setText" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("QString::toInt" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5189 5216]))                  
+                :type "int")
+                nil [5181 5218])
+            ("StartNormalDet" function
+               (:prototype-flag t
+                :type "int")
+                nil [5222 5239])
+            ("QCOMPARE" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("BS_EngineManager" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5252 5269])
+                    ("" variable (:type ("m_BizLogicEngine" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5269 5286])
+                    ("" variable (:type ("m_iGraphMaxNum" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5286 5301])
+                    ("" variable (:type ("GraphMaxNum" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5301 5313]))                  
+                :type "int")
+                nil [5243 5314])
+            ("QCOMPARE" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("BS_EngineManager" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5327 5344])
+                    ("" variable (:type ("m_BizLogicEngine" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5344 5361])
+                    ("" variable (:type ("m_iIdentifyingMaterialDelayTimer_Interval" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5361 5403])
+                    ("" variable (:type ("IdentifyingMaterialDelayTimer_Interval" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5415 5454]))                  
+                :type "int")
+                nil [5318 5455])
+            ("QCOMPARE" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("BS_WMSystemVar" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5468 5483])
+                    ("" variable (:type ("m_iNormalDet_DetIntervalTime" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5483 5512])
+                    ("" variable (:type ("NormalDet_DetIntervalTime" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5513 5539]))                  
+                :type "int")
+                nil [5459 5540])
+            ("QCOMPARE" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("BS_WMSystemVar" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5553 5568])
+                    ("" variable (:type ("m_uiCleanTime" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5568 5582])
+                    ("" variable (:type ("CleanTime" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5582 5592]))                  
+                :type "int")
+                nil [5544 5593])
+            ("addColumn" function
+               (:template-specifier 
+                  ( ("int" type nil nil nil))                  
+                :prototype-flag t
+                :parent "QTest"
+                :type "int")
+                nil [5655 5690])
+            ("addColumn" function
+               (:template-specifier 
+                  ( ("int" type nil nil nil))                  
+                :prototype-flag t
+                :parent "QTest"
+                :type "int")
+                nil [5708 5759])
+            ("addColumn" function
+               (:template-specifier 
+                  ( ("int" type nil nil nil))                  
+                :prototype-flag t
+                :parent "QTest"
+                :type "int")
+                nil [5771 5835])
+            ("addColumn" function
+               (:template-specifier 
+                  ( ("int" type nil nil nil))                  
+                :prototype-flag t
+                :parent "QTest"
+                :type "int")
+                nil [5847 5884])
+            ("addColumn" function
+               (:template-specifier 
+                  ( ("int" type nil nil nil))                  
+                :prototype-flag t
+                :parent "QTest"
+                :type "int")
+                nil [8399 8436])
+            ("addColumn" function
+               (:template-specifier 
+                  ( ("int" type nil nil nil))                  
+                :prototype-flag t
+                :parent "QTest"
+                :type "int")
+                nil [8447 8484])
+            ("addColumn" function
+               (:template-specifier 
+                  ( ("double" type nil nil nil))                  
+                :prototype-flag t
+                :parent "QTest"
+                :type "int")
+                nil [8487 8529])
+            ("RefreshCurrentSystemStatus" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("SystemStatus" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9237 9250]))                  
+                :type "int")
+                nil [9210 9251])
+            ("QCOMPARE" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("SystemInformation" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9264 9282])
+                    ("" variable (:type ("ui" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9282 9285])
+                    ("" variable (:type ("label_SystemInfo" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9286 9303])
+                    ("" variable (:type ("Text" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9304 9310]))                  
+                :type "int")
+                nil [9255 9312])
+            ("addColumn" function
+               (:template-specifier 
+                  ( ("int" type nil nil nil))                  
+                :prototype-flag t
+                :parent "QText"
+                :type "int")
+                nil [9385 9423])
+            ("addColumn" function
+               (:template-specifier 
+                  ( ("QString" type nil nil nil))                  
+                :prototype-flag t
+                :parent "QTest"
+                :type "int")
+                nil [9426 9479])
+            ("addColumn" function
+               (:template-specifier 
+                  ( ("int" type nil nil nil))                  
+                :prototype-flag t
+                :parent "QTest"
+                :type "int")
+                nil [10240 10273])
+            ("testDataLineP" variable (:type ("CDataLine" type (:type "class") nil nil)) nil [10479 10503])
+            ("testDataLineN" variable (:type ("CdataLine" type (:type "class") nil nil)) nil [10506 10530])
+            ("m_DetectMode" variable
+               (:default-value "detMode"
+                :type "int")
+                nil [10548 10571])
+            ("slot_OneLineScanFinish" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("datalineIndex" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10602 10616])
+                    ("" variable (:type ("testDataLineP" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10616 10630])
+                    ("" variable (:type ("testDataLineN" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10630 10644]))                  
+                :type "int")
+                nil [10579 10645])
+            ("QVERIFY" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("true" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10726 10731]))                  
+                :type "int")
+                nil [10718 10732])
+            ("addColumn" function
+               (:template-specifier 
+                  ( ("int" type nil nil nil))                  
+                :prototype-flag t
+                :parent "QTest"
+                :type "int")
+                nil [10799 10839])
+            ("addColumn" function
+               (:template-specifier 
+                  ( ("int" type nil nil nil))                  
+                :prototype-flag t
+                :parent "QTest"
+                :type "int")
+                nil [10842 10875]))          
+      :file "tst_bsguiuinttsttest.cpp"
+      :pointmax 11343
+      :fsize 12028
+      :lastmodtime '(22101 23405 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "tst_bsguiuinttsttest.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("QString" include (:system-flag t) nil [1 19])
+            ("QtTest" include (:system-flag t) nil [20 37])
+            ("QCoreApplication" include (:system-flag t) nil [38 65])
+            ("mainwindow.h" include (:system-flag t) nil [66 89])
+            ("BSGuiUintTstTest" type
+               (:superclasses 
+                  ( ("QObject" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [145 152])
+                    ("BSGuiUintTstTest" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :type ("BSGuiUintTstTest" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [155 174])
+                    ("private" label nil (reparse-symbol classsubparts) [176 192])
+                    ("initTestCase" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [196 216])
+                    ("cleanupTestCase" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [219 242])
+                    ("testCase" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [245 261])
+                    ("testCase_data" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [264 285])
+                    ("initTestCase_ApplySystemDetMode" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [888 927])
+                    ("cleanupTestCase_ApplySystemDetMode" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [937 979])
+                    ("testCase_ApplySystemDetMode" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [982 1017])
+                    ("testCase_ApplySystemDetMode_data" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1020 1060])
+                    ("initTestCase_StartHSDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1064 1095])
+                    ("cleanupTestCase_StartHSDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1098 1132])
+                    ("testCase_StartHSDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1135 1162])
+                    ("testCase_StartHSDet_data" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1165 1197])
+                    ("initTestCase_StopHSDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1201 1231])
+                    ("cleanupTestCase_StopHSDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1234 1267])
+                    ("testCase_StopHSDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1270 1296])
+                    ("testCase_StopHSDet_data" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1299 1330])
+                    ("initTestCase_StartNormalDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1334 1369])
+                    ("cleanupTestCase_StartNormalDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1372 1410])
+                    ("testCase_StartNormalDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1413 1444])
+                    ("testCase_StartNormalDet_data" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1447 1483])
+                    ("initTestCase_StopNormalDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1487 1521])
+                    ("cleanupTestCase_StopNormalDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1530 1567])
+                    ("testCase_StopNormalDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1570 1600])
+                    ("testCase_StopNormalDet_data" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1603 1638])
+                    ("initTestCase_StopNormalDetClean" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1642 1681])
+                    ("cleanupTestCase_StopNormalDetClean" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1690 1732])
+                    ("testCase_StopNormalDetClean" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1735 1770])
+                    ("testCase_StopNormalDetClean_data" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1773 1813])
+                    ("initTestCase_StartContinousDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1820 1858])
+                    ("cleanupTestCase_StartContinousDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1867 1908])
+                    ("testCase_StartContinousDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1911 1945])
+                    ("testCase_StartContinousDet_data" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1948 1987])
+                    ("initTestCase_StopContinousDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1991 2028])
+                    ("cleanupTestCase_StopContinousDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2037 2077])
+                    ("testCase_StopContinousDet" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2080 2113])
+                    ("testCase_StopContinousDet_data" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2116 2154])
+                    ("initTestCase_InitGraphParam" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2158 2193])
+                    ("cleanupTestCase_InitGraphParam" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2202 2240])
+                    ("testCase_InitGraphParam" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2243 2274])
+                    ("testCase_InitGraphParam_data" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2277 2313])
+                    ("initTestCase_IsQStringDigit" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [4617 4652])
+                    ("cleanupTestCase_IsQStringDigit" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [4664 4702])
+                    ("testCase_IsQStringDigit" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [4705 4736])
+                    ("testCase_IsQStringDigit_data" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [4739 4775])
+                    ("initTestCase_SetDeviceParamToBizLogizEngine" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [4779 4830])
+                    ("cleanupTestCase_SetDeviceParamToBizLogizEngine" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [4833 4887])
+                    ("testCase_SetDeviceParamToBizLogizEngine" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [4890 4937])
+                    ("testCase_SetDeviceParamToBizLogizEngine_data" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [4940 4992])
+                    ("initTestCase_RefreshCurrentSystemStatus" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [5009 5056])
+                    ("cleanupTestCase_RefreshCurrentSystemStatus" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [5065 5115])
+                    ("testCase_RefreshCurrentSystemStatus" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [5118 5161])
+                    ("testCase_RefreshCurrentSystemStatus_data" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [5164 5212])
+                    ("initTestCase_slot_SysWrongHandle" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [11419 11459])
+                    ("cleanupTestCase_slot_SysWrongHandle" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [11462 11505])
+                    ("testCase_slot_SysWrongHandle" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [11508 11544])
+                    ("testCase_slot_SysWrongHandle_data" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [11547 11588])
+                    ("initTestCase_slot_OneLineScanFinish" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [11602 11645])
+                    ("cleanupTestCase_slot_OneLineScanFinish" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [11648 11694])
+                    ("testCase_slot_OneLineScanFinish" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [11697 11736])
+                    ("testCase_slot_OneLineScanFinish_data" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [11739 11783])
+                    ("public" label nil (reparse-symbol classsubparts) [18887 18894])
+                    ("cTest" variable (:type ("GuiTstFunc" type (:type "class") nil nil)) (reparse-symbol classsubparts) [18899 18916]))                  
+                :type "class")
+                nil [91 18951])
+            ("win" variable
+               (:pointer 1
+                :type ("MainWindow" type (:type "class") nil nil))
+                nil [18952 18968])
+            ("tst_bsguiuinttsttest.moc" include nil nil [19001 19036]))          
+      :file "tst_bsguiuinttsttest.h"
+      :pointmax 19037
+      :fsize 19509
+      :lastmodtime '(22101 23404 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!shenmutong!WorkSpace!SoftWareDepartment!BlueSolutionProject!UintTest!BSGuiUintTst!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -3,7 +3,19 @@
 # key: newFunc
 # binding: direct-keybinding
 # --
-$1 $2($3)
+void BSGuiUintTstTest::initTestCase_$1()
 {
-  $4 
+  
+}
+void BSGuiUintTstTest::cleanupTestCase_$1()
+{
+  
+}
+void BSGuiUintTstTest::testCase_$1()
+{
+  
+}
+void BSGuiUintTstTest::testCase_$1_data()
+{
+  
 }
