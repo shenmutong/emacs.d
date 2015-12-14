@@ -180,12 +180,6 @@
  ;; If there is more than one, they won't work right.
  '(window-numbering-face ((t (:foreground "DeepPink" :underline "DeepPink" :weight bold))) t))
 
-; set sheif +space as set mark command
-(global-set-key [S-] 'set-mark-command)
-;; 行首, 设定mark以及行尾.
-(global-set-key [C-2] 'set-mark-command)
-
-
 ;; change keys for iterm2
                                  (define-key input-decode-map "\e[1;10A" [M-S-up])
                                  (define-key input-decode-map "\e[1;10B" [M-S-down])
@@ -198,6 +192,11 @@
                                  (define-key input-decode-map "\e[1;9D" [M-left])
 ;;change end
 
+
+; set sheif +space as set mark command
+(global-set-key [S-] 'set-mark-command)
+;; 行首, 设定mark以及行尾.
+(global-set-key [C-2] 'set-mark-command)
 ;; mac key bindings
 ;;
 ;;
@@ -205,9 +204,11 @@
   (setq mac-option-key-is-meta t)
   (setq mac-option-modifier 'super)
   (setq mac-right-option-modifier nil)
-  (global-set-key [C-tab] 'scroll-down-command)
-)
 
+  (global-set-key [M-v] 'scroll-down-command)
+)
+(global-set-key [C-escape] 'scroll-down-command)
+(global-set-key [M-v] 'scroll-down-command)
 ;;ccmode
 ;;(define-key c-mode-base-map [(tab)] 'my-indent-or-complete)
 ;;(define-key c-mode-base-map [(meta ?/)] 'semantic-ia-complete-symbol-menu)
@@ -262,6 +263,7 @@
 (global-set-key [(f9)] 'loop-alpha)
 
 (setq alpha-list '((100 100) (95 65) (85 55) (75 45) (65 35)))
+;;(setq alpha-list '((100 100) (95 100) (85 100) (75 100) (65 100)))
 
 (defun loop-alpha ()
 
@@ -281,6 +283,7 @@
 
     )
 )
+
 
 
 (put 'scroll-left 'disabled nil)
