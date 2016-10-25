@@ -413,6 +413,7 @@ to replace the symbol under cursor"
   )
 ;; }}
 
+
 ;; change mode-line color by evil state
 (lexical-let ((default-color (cons (face-background 'mode-line)
                                    (face-foreground 'mode-line))))
@@ -432,4 +433,6 @@ to replace the symbol under cursor"
 (evilnc-default-hotkeys)
 ;; }}
 
+; set cursor color
+(set-cursor-color "white" )
 (provide 'init-evil)

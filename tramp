@@ -1,23 +1,24 @@
-;; -*- emacs-lisp -*- <15/11/22 22:58:42 /home/shenmutong/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <16/09/18 10:28:23 /Users/shenmutong/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
 ((["sudo" "root" "localhost" nil nil]
-  ("uname" "Linux 3.19.0-33-generic")
+  ("uname" "Darwin 15.6.0")
   ("test" "test")
   ("remote-path"
-   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+   ("/usr/bin" "/bin" "/usr/sbin" "/sbin" "/usr/local/bin" "/opt/local/bin"))
   ("remote-shell" "/bin/sh")
-  ("locale" "LC_ALL=en_US.utf8")
-  ("file-exists" "test -e")
-  ("ls" "/bin/ls --color=never")
-  ("ls-dired" t)
-  ("stat" nil)
+  ("locale" "LC_ALL=C")
+  ("readlink" nil)
   ("perl-file-spec" t)
   ("perl-cwd-realpath" t)
   ("perl" "\\perl")
+  ("stat" nil)
   ("id" "/usr/bin/id")
   ("gid-integer" 0)
-  ("readlink" "\\readlink")
-  ("gid-string" "root")
-  ("gvfs-monitor-dir" "/usr/bin/gvfs-monitor-dir")))
+  ("file-exists" "test -e")
+  ("ls" "/bin/ls")
+  ("gid-string" "wheel")
+  ("uid-integer" 0)
+  ("gvfs-monitor-dir" nil)
+  ("inotifywait" nil)))

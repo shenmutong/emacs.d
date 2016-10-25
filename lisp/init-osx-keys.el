@@ -10,7 +10,8 @@
     (global-set-key (kbd "M-h") 'ns-do-hide-emacs)
     (global-set-key (kbd "M-ˍ") 'ns-do-hide-others) ;; what describe-key reports
     (global-set-key (kbd "M-c") 'ns-copy-including-secondary)
-    (global-set-key (kbd "M-v") 'ns-paste-secondary)))
+;;    (global-set-key (kbd "M-v") 'ns-paste-secondary)
+    ))
 
 
 (provide 'init-osx-keys)

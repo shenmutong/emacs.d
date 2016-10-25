@@ -197,16 +197,14 @@
 (global-set-key [S-] 'set-mark-command)
 ;; 行首, 设定mark以及行尾.
 (global-set-key [C-2] 'set-mark-command)
-;; mac key bindings
-;;
-;;
-(when (eq system-type 'darwin)    ;; mac specific settings
-  (setq mac-option-key-is-meta t)
-  (setq mac-option-modifier 'super)
-  (setq mac-right-option-modifier nil)
+;; mac key 
+(setq mac-option-key-is-meta t)
+(setq mac-option-modifier 'meta)
+(setq mac-right-option-modifier nil)
 
-  (global-set-key [M-v] 'scroll-down-command)
-)
+(global-set-key [M-v] 'scroll-down-command)
+
+
 (global-set-key [C-escape] 'scroll-down-command)
 (global-set-key [M-v] 'scroll-down-command)
 ;;ccmode
