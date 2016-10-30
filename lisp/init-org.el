@@ -116,5 +116,10 @@
       '(elisp "lisp"
               emacs-lisp "lisp"))
 ;; }}
-
+;; add plant uml
+;; active Org-babel languages
+(org-babel-do-load-languages
+  'org-babel-load-languages
+   '(;; other Babel languages
+        (plantuml . t)))
 (provide 'init-org)

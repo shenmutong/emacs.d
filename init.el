@@ -138,6 +138,10 @@
 (require 'color-theme-molokai)
 ;add qt mode by shenmutong
 (require 'cc-mode)
+;;add org mode
+(require 'package)
+(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
+
 ;add qt mode by shenmutong
 (color-theme-molokai)
 ;; This line must be after color-theme-molokai! Don't know why.
@@ -216,6 +220,13 @@
 ;;   (setq mac-command-modifier 'meta)
 ;;   (global-set-key [kp-delete] 'delete-char) ;; sets fn-delete to be right-delete
 ;;   )
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(plantuml-jar-path "/Users/shenmutong/.emacs.d/plantuml.jar")
+ '(session-use-package t nil (session)))
 ;;;;; Local Variables:
 ;;; no-byte-compile: t
 ;;; End
