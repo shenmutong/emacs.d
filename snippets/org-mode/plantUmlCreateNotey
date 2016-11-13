@@ -1,0 +1,9 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: plantUmlCreateNote
+# key: pcn
+# binding: direct-keybinding
+# --
+note $1 :
+  $2
+end note
+$0

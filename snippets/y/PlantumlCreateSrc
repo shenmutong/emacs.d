@@ -1,0 +1,10 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: PlantumlCreateSrc
+# key: pcreatesrc
+# binding: direct-keybinding
+# --
++BEGIN_SRC plantuml :file "$2"
+@startuml
+$0
+@enduml
+$1+END_SRC

@@ -138,9 +138,22 @@
 (require 'color-theme-molokai)
 ;add qt mode by shenmutong
 (require 'cc-mode)
+;;add ox-reveal is org to html ppt tools
+(require ' ox-reveal)
 ;;add org mode
+
 (require 'package)
 (add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
+
+
+(require 'package) ;; You might already have this line
+(add-to-list 'package-archives
+             '("melpa" . "https://melpa.org/packages/"))
+(when (< emacs-major-version 24)
+  ;; For important compatibility libraries like cl-lib
+  (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
+(package-initialize) ;; You might already have this line
+
 
 ;add qt mode by shenmutong
 (color-theme-molokai)
@@ -183,6 +196,10 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(window-numbering-face ((t (:foreground "DeepPink" :underline "DeepPink" :weight bold))) t))
+;; add plantuml 2 path
+(setq org-plantuml-jar-path
+            (expand-file-name "~/.emacs.d/plantuml.jar"))
+
 
 ;; change keys for iterm2
                                  (define-key input-decode-map "\e[1;10A" [M-S-up])
@@ -225,6 +242,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(bmkp-last-as-first-bookmark-file "~/.emacs.d/.bookmarks.el")
  '(plantuml-jar-path "/Users/shenmutong/.emacs.d/plantuml.jar")
  '(session-use-package t nil (session)))
 ;;;;; Local Variables:
@@ -299,6 +317,7 @@
 
 (desktop-save-mode 0)
 
+(setq org-reveal-root "file:///home/dean/reveal.js-3.3.0/")  
 
 ;;(setq desktop-dir "~/.emacs.d")
 

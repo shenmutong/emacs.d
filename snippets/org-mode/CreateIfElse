@@ -1,0 +1,11 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: CreateIfElse
+# key: cif
+# binding: direct-keybinding
+# --
+if "$1"
+ -r->[$2] "$3"
+else
+ -d->[$4] "$5"
+endif
+ $0

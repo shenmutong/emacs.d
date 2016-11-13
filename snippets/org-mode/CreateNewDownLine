@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: PlantCreateDownLine
+# key: pcdl
+# binding: direct-keybinding
+# --
+-d-> "$1"
+$0

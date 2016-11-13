@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: PlantUMlCreateEndLine
+# key: pcel
+# binding: direct-keybinding
+# --
+-d->(*)
+
